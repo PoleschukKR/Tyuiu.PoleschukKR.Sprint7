@@ -31,24 +31,22 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelMenu_PKR = new System.Windows.Forms.Panel();
+            this.buttonCompanies_PKR = new System.Windows.Forms.Button();
             this.buttonInfo_PKR = new System.Windows.Forms.Button();
             this.buttonHelp_PKR = new System.Windows.Forms.Button();
             this.buttonProducts_PKR = new System.Windows.Forms.Button();
-            this.panelSearch_PKR = new System.Windows.Forms.Panel();
+            this.panelSearchMenu_PKR = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.buttonSearch_PKR = new System.Windows.Forms.Button();
             this.panelLogo_PKR = new System.Windows.Forms.Panel();
-            this.panelTitle_PKR = new System.Windows.Forms.Panel();
             this.panelMain_PKR = new System.Windows.Forms.Panel();
-            this.dataGridViewMain_PKR = new System.Windows.Forms.DataGridView();
             this.panelLowerButtons_PKR = new System.Windows.Forms.Panel();
-            this.buttonCompanies_PKR = new System.Windows.Forms.Button();
+            this.panelTitle_PKR = new System.Windows.Forms.Panel();
             this.panelMenu_PKR.SuspendLayout();
-            this.panelSearch_PKR.SuspendLayout();
+            this.panelSearchMenu_PKR.SuspendLayout();
             this.panelMain_PKR.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMain_PKR)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu_PKR
@@ -59,7 +57,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMenu_PKR.Controls.Add(this.buttonInfo_PKR);
             this.panelMenu_PKR.Controls.Add(this.buttonHelp_PKR);
             this.panelMenu_PKR.Controls.Add(this.buttonProducts_PKR);
-            this.panelMenu_PKR.Controls.Add(this.panelSearch_PKR);
+            this.panelMenu_PKR.Controls.Add(this.panelSearchMenu_PKR);
             this.panelMenu_PKR.Controls.Add(this.buttonSearch_PKR);
             this.panelMenu_PKR.Controls.Add(this.panelLogo_PKR);
             this.panelMenu_PKR.Dock = System.Windows.Forms.DockStyle.Left;
@@ -67,6 +65,25 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMenu_PKR.Name = "panelMenu_PKR";
             this.panelMenu_PKR.Size = new System.Drawing.Size(250, 671);
             this.panelMenu_PKR.TabIndex = 0;
+            // 
+            // buttonCompanies_PKR
+            // 
+            this.buttonCompanies_PKR.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonCompanies_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonCompanies_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCompanies_PKR.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCompanies_PKR.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonCompanies_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonCompanies_PKR.Image")));
+            this.buttonCompanies_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCompanies_PKR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.buttonCompanies_PKR.Location = new System.Drawing.Point(0, 570);
+            this.buttonCompanies_PKR.Name = "buttonCompanies_PKR";
+            this.buttonCompanies_PKR.Size = new System.Drawing.Size(250, 97);
+            this.buttonCompanies_PKR.TabIndex = 6;
+            this.buttonCompanies_PKR.Text = "Сведения о фирмах";
+            this.buttonCompanies_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonCompanies_PKR.UseVisualStyleBackColor = true;
+            this.buttonCompanies_PKR.Click += new System.EventHandler(this.buttonCompanies_PKR_Click);
             // 
             // buttonInfo_PKR
             // 
@@ -85,7 +102,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonInfo_PKR.Text = "Справка";
             this.buttonInfo_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonInfo_PKR.UseVisualStyleBackColor = true;
-            this.buttonInfo_PKR.Click += new System.EventHandler(this.buttonInfo_PKR_Click);
+            this.buttonInfo_PKR.Click += new System.EventHandler(this.ButtonInfo_PKR_Click);
             // 
             // buttonHelp_PKR
             // 
@@ -123,17 +140,18 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonProducts_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonProducts_PKR.UseVisualStyleBackColor = true;
             // 
-            // panelSearch_PKR
+            // panelSearchMenu_PKR
             // 
-            this.panelSearch_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(96)))), ((int)(((byte)(110)))));
-            this.panelSearch_PKR.Controls.Add(this.button3);
-            this.panelSearch_PKR.Controls.Add(this.button2);
-            this.panelSearch_PKR.Controls.Add(this.button1);
-            this.panelSearch_PKR.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSearch_PKR.Location = new System.Drawing.Point(0, 175);
-            this.panelSearch_PKR.Name = "panelSearch_PKR";
-            this.panelSearch_PKR.Size = new System.Drawing.Size(250, 185);
-            this.panelSearch_PKR.TabIndex = 2;
+            this.panelSearchMenu_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(96)))), ((int)(((byte)(110)))));
+            this.panelSearchMenu_PKR.Controls.Add(this.button3);
+            this.panelSearchMenu_PKR.Controls.Add(this.button2);
+            this.panelSearchMenu_PKR.Controls.Add(this.button1);
+            this.panelSearchMenu_PKR.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSearchMenu_PKR.Location = new System.Drawing.Point(0, 175);
+            this.panelSearchMenu_PKR.Name = "panelSearchMenu_PKR";
+            this.panelSearchMenu_PKR.Size = new System.Drawing.Size(250, 185);
+            this.panelSearchMenu_PKR.TabIndex = 2;
+            this.panelSearchMenu_PKR.Visible = false;
             // 
             // button3
             // 
@@ -150,6 +168,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // button2
             // 
@@ -165,6 +184,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button1
             // 
@@ -180,6 +200,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // buttonSearch_PKR
             // 
@@ -198,6 +219,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonSearch_PKR.TabIndex = 1;
             this.buttonSearch_PKR.Text = "Найти";
             this.buttonSearch_PKR.UseVisualStyleBackColor = false;
+            this.buttonSearch_PKR.Click += new System.EventHandler(this.ButtonSearch_PKR_Click);
             // 
             // panelLogo_PKR
             // 
@@ -208,37 +230,15 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelLogo_PKR.Size = new System.Drawing.Size(250, 100);
             this.panelLogo_PKR.TabIndex = 0;
             // 
-            // panelTitle_PKR
-            // 
-            this.panelTitle_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.panelTitle_PKR.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitle_PKR.Location = new System.Drawing.Point(250, 0);
-            this.panelTitle_PKR.Name = "panelTitle_PKR";
-            this.panelTitle_PKR.Size = new System.Drawing.Size(757, 100);
-            this.panelTitle_PKR.TabIndex = 1;
-            // 
             // panelMain_PKR
             // 
             this.panelMain_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.panelMain_PKR.Controls.Add(this.panelLowerButtons_PKR);
-            this.panelMain_PKR.Controls.Add(this.dataGridViewMain_PKR);
             this.panelMain_PKR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain_PKR.Location = new System.Drawing.Point(250, 100);
             this.panelMain_PKR.Name = "panelMain_PKR";
             this.panelMain_PKR.Size = new System.Drawing.Size(757, 571);
             this.panelMain_PKR.TabIndex = 2;
-            // 
-            // dataGridViewMain_PKR
-            // 
-            this.dataGridViewMain_PKR.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
-            this.dataGridViewMain_PKR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMain_PKR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewMain_PKR.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewMain_PKR.Name = "dataGridViewMain_PKR";
-            this.dataGridViewMain_PKR.RowHeadersWidth = 51;
-            this.dataGridViewMain_PKR.RowTemplate.Height = 24;
-            this.dataGridViewMain_PKR.Size = new System.Drawing.Size(757, 571);
-            this.dataGridViewMain_PKR.TabIndex = 0;
             // 
             // panelLowerButtons_PKR
             // 
@@ -248,45 +248,34 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelLowerButtons_PKR.Size = new System.Drawing.Size(757, 100);
             this.panelLowerButtons_PKR.TabIndex = 1;
             // 
-            // buttonCompanies_PKR
+            // panelTitle_PKR
             // 
-            this.buttonCompanies_PKR.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonCompanies_PKR.FlatAppearance.BorderSize = 0;
-            this.buttonCompanies_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCompanies_PKR.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCompanies_PKR.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonCompanies_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonCompanies_PKR.Image")));
-            this.buttonCompanies_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonCompanies_PKR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonCompanies_PKR.Location = new System.Drawing.Point(0, 570);
-            this.buttonCompanies_PKR.Name = "buttonCompanies_PKR";
-            this.buttonCompanies_PKR.Size = new System.Drawing.Size(250, 97);
-            this.buttonCompanies_PKR.TabIndex = 6;
-            this.buttonCompanies_PKR.Text = "Сведения о фирмах";
-            this.buttonCompanies_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonCompanies_PKR.UseVisualStyleBackColor = true;
+            this.panelTitle_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.panelTitle_PKR.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitle_PKR.Location = new System.Drawing.Point(250, 0);
+            this.panelTitle_PKR.Name = "panelTitle_PKR";
+            this.panelTitle_PKR.Size = new System.Drawing.Size(757, 100);
+            this.panelTitle_PKR.TabIndex = 1;
             // 
             // FormMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1007, 671);
             this.Controls.Add(this.panelMain_PKR);
             this.Controls.Add(this.panelTitle_PKR);
             this.Controls.Add(this.panelMenu_PKR);
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1100, 1100);
             this.MinimumSize = new System.Drawing.Size(951, 600);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ItCompare";
-            this.Load += new System.EventHandler(this.FormMain_Load);
             this.panelMenu_PKR.ResumeLayout(false);
-            this.panelSearch_PKR.ResumeLayout(false);
+            this.panelSearchMenu_PKR.ResumeLayout(false);
             this.panelMain_PKR.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMain_PKR)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -294,9 +283,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         #endregion
 
         private System.Windows.Forms.Panel panelMenu_PKR;
-        private System.Windows.Forms.Panel panelTitle_PKR;
         private System.Windows.Forms.Button buttonProducts_PKR;
-        private System.Windows.Forms.Panel panelSearch_PKR;
+        private System.Windows.Forms.Panel panelSearchMenu_PKR;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
@@ -304,10 +292,10 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.Button buttonInfo_PKR;
         private System.Windows.Forms.Button buttonHelp_PKR;
         private System.Windows.Forms.Panel panelMain_PKR;
-        private System.Windows.Forms.Panel panelLogo_PKR;
-        private System.Windows.Forms.DataGridView dataGridViewMain_PKR;
         private System.Windows.Forms.Panel panelLowerButtons_PKR;
         private System.Windows.Forms.Button buttonCompanies_PKR;
+        private System.Windows.Forms.Panel panelTitle_PKR;
+        private System.Windows.Forms.Panel panelLogo_PKR;
     }
 }
 
