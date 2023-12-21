@@ -123,12 +123,12 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonExitFormComp_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAADuSURBVEhLvZZBCoJQGITfqlW3qH0ta2OrjtFBap3dpJZR
-        EXSX1i2KLlBg2LznhP0Uhjr2wSfqPOdHVNClabqAd1gX3xG7bzBUcWOthaEM1lqYyWCthZkM1lqYKTjA
-        DWstWV6bHezAHmstYUl9VnAAz3DI6hy/QsADTuAYfg7CCRUJ9IMieIEjjpAO8STstHfkkwKmsBUWlgTX
-        5YOwKaINj9luZU6/hsxg43dSlkrPpAyvt8sPuMIoDPDgQMFfvpMlbPyL38Iu7LPWEpZo2MM1ay1ZroO1
-        FmYyWGthJoO1Fpz/y99KDFX/XXPWvuHcE1MAxc3taV39AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAO5JREFUSEu9lkEKglAYhN+qVbeofS1rY6uO0UFqnd2kllERdJfWLYouUGDYvOeE
+        /RSGOvbBJ+o850dU0KVpuoB3WBffEbtvMFRxY62FoQzWWpjJYK2FmQzWWpgpOMANay1ZXpsd7MAeay1h
+        SX1WcADPcMjqHL9CwANO4Bh+DsIJFQn0gyJ4gSOOkA7xJOy0d+STAqawFRaWBNflg7Apog2P2W5lTr+G
+        zGDjd1KWSs+kDK+3yw+4wigM8OBAwV++kyVs/Ivfwi7ss9YSlmjYwzVrLVmug7UWZjJYa2Emg7UWnP/L
+        30oMVf9dc9a+4dwTUwDFze1pXf0AAAAASUVORK5CYII=
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

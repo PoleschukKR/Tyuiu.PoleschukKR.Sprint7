@@ -30,6 +30,10 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMenu_PKR = new System.Windows.Forms.Panel();
             this.buttonCompanies_PKR = new System.Windows.Forms.Button();
             this.buttonInfo_PKR = new System.Windows.Forms.Button();
@@ -38,15 +42,19 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelSearchMenu_PKR = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonAsusMenu_PKR = new System.Windows.Forms.Button();
             this.buttonSearch_PKR = new System.Windows.Forms.Button();
             this.panelLogo_PKR = new System.Windows.Forms.Panel();
             this.panelMain_PKR = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panelLowerButtons_PKR = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.panelTitle_PKR = new System.Windows.Forms.Panel();
             this.panelMenu_PKR.SuspendLayout();
             this.panelSearchMenu_PKR.SuspendLayout();
             this.panelMain_PKR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panelLowerButtons_PKR.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu_PKR
@@ -121,6 +129,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonHelp_PKR.Text = "Помощь";
             this.buttonHelp_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonHelp_PKR.UseVisualStyleBackColor = true;
+            this.buttonHelp_PKR.Click += new System.EventHandler(this.buttonHelp_PKR_Click);
             // 
             // buttonProducts_PKR
             // 
@@ -145,7 +154,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelSearchMenu_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(96)))), ((int)(((byte)(110)))));
             this.panelSearchMenu_PKR.Controls.Add(this.button3);
             this.panelSearchMenu_PKR.Controls.Add(this.button2);
-            this.panelSearchMenu_PKR.Controls.Add(this.button1);
+            this.panelSearchMenu_PKR.Controls.Add(this.buttonAsusMenu_PKR);
             this.panelSearchMenu_PKR.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSearchMenu_PKR.Location = new System.Drawing.Point(0, 175);
             this.panelSearchMenu_PKR.Name = "panelSearchMenu_PKR";
@@ -186,21 +195,21 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // button1
+            // buttonAsusMenu_PKR
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(250, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.buttonAsusMenu_PKR.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonAsusMenu_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonAsusMenu_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAsusMenu_PKR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAsusMenu_PKR.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonAsusMenu_PKR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.buttonAsusMenu_PKR.Location = new System.Drawing.Point(0, 0);
+            this.buttonAsusMenu_PKR.Name = "buttonAsusMenu_PKR";
+            this.buttonAsusMenu_PKR.Size = new System.Drawing.Size(250, 60);
+            this.buttonAsusMenu_PKR.TabIndex = 0;
+            this.buttonAsusMenu_PKR.Text = "ASUS";
+            this.buttonAsusMenu_PKR.UseVisualStyleBackColor = true;
+            this.buttonAsusMenu_PKR.Click += new System.EventHandler(this.buttonAsusMenu_PKR_Click);
             // 
             // buttonSearch_PKR
             // 
@@ -233,6 +242,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // panelMain_PKR
             // 
             this.panelMain_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.panelMain_PKR.Controls.Add(this.dataGridView1);
             this.panelMain_PKR.Controls.Add(this.panelLowerButtons_PKR);
             this.panelMain_PKR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain_PKR.Location = new System.Drawing.Point(250, 100);
@@ -240,13 +250,66 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMain_PKR.Size = new System.Drawing.Size(757, 571);
             this.panelMain_PKR.TabIndex = 2;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.NullValue = null;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 21);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.RowHeadersWidth = 51;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(739, 406);
+            this.dataGridView1.TabIndex = 4;
+            // 
             // panelLowerButtons_PKR
             // 
+            this.panelLowerButtons_PKR.AutoScroll = true;
+            this.panelLowerButtons_PKR.Controls.Add(this.button4);
             this.panelLowerButtons_PKR.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelLowerButtons_PKR.Location = new System.Drawing.Point(0, 471);
             this.panelLowerButtons_PKR.Name = "panelLowerButtons_PKR";
             this.panelLowerButtons_PKR.Size = new System.Drawing.Size(757, 100);
             this.panelLowerButtons_PKR.TabIndex = 1;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(124, 34);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(163, 39);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panelTitle_PKR
             // 
@@ -268,7 +331,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1100, 1100);
             this.MinimumSize = new System.Drawing.Size(951, 600);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -276,6 +338,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMenu_PKR.ResumeLayout(false);
             this.panelSearchMenu_PKR.ResumeLayout(false);
             this.panelMain_PKR.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panelLowerButtons_PKR.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -287,7 +351,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.Panel panelSearchMenu_PKR;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonAsusMenu_PKR;
         private System.Windows.Forms.Button buttonSearch_PKR;
         private System.Windows.Forms.Button buttonInfo_PKR;
         private System.Windows.Forms.Button buttonHelp_PKR;
@@ -296,6 +360,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.Button buttonCompanies_PKR;
         private System.Windows.Forms.Panel panelTitle_PKR;
         private System.Windows.Forms.Panel panelLogo_PKR;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

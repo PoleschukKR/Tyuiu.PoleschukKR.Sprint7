@@ -84,7 +84,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormAboutItCompare";
+            this.Text = "Справка";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_PKR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

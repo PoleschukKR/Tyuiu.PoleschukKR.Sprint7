@@ -34,9 +34,9 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.ComboBoxCompanies_PKR = new Guna.UI2.WinForms.Guna2ComboBox();
             this.labelCompanies_PKR = new System.Windows.Forms.Label();
             this.listBoxCompanies_PKR = new System.Windows.Forms.ListBox();
-            this.roundButtonInfoAboutCompanies = new Tyuiu.PoleschukKR.Sprint7.Project.V12.RoundButton();
             this.buttonExitFormComp_PKR = new System.Windows.Forms.Button();
             this.toolTipAboutCompanies_PKR = new System.Windows.Forms.ToolTip(this.components);
+            this.roundButtonInfoAboutCompanies = new Tyuiu.PoleschukKR.Sprint7.Project.V12.RoundButton();
             this.SuspendLayout();
             // 
             // ComboBoxCompanies_PKR
@@ -92,6 +92,34 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.listBoxCompanies_PKR.Size = new System.Drawing.Size(885, 354);
             this.listBoxCompanies_PKR.TabIndex = 2;
             // 
+            // buttonExitFormComp_PKR
+            // 
+            this.buttonExitFormComp_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.buttonExitFormComp_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonExitFormComp_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonExitFormComp_PKR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonExitFormComp_PKR.ForeColor = System.Drawing.Color.White;
+            this.buttonExitFormComp_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonExitFormComp_PKR.Image")));
+            this.buttonExitFormComp_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonExitFormComp_PKR.Location = new System.Drawing.Point(19, 485);
+            this.buttonExitFormComp_PKR.Name = "buttonExitFormComp_PKR";
+            this.buttonExitFormComp_PKR.Size = new System.Drawing.Size(124, 47);
+            this.buttonExitFormComp_PKR.TabIndex = 4;
+            this.buttonExitFormComp_PKR.Text = "Выход ";
+            this.buttonExitFormComp_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTipAboutCompanies_PKR.SetToolTip(this.buttonExitFormComp_PKR, "Выход в главное меню\r\n");
+            this.buttonExitFormComp_PKR.UseVisualStyleBackColor = false;
+            this.buttonExitFormComp_PKR.Click += new System.EventHandler(this.buttonExitFormComp_PKR_Click);
+            this.buttonExitFormComp_PKR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonExitFormComp_PKR_MouseDown);
+            this.buttonExitFormComp_PKR.MouseLeave += new System.EventHandler(this.buttonExitFormComp_PKR_MouseLeave);
+            // 
+            // toolTipAboutCompanies_PKR
+            // 
+            this.toolTipAboutCompanies_PKR.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.toolTipAboutCompanies_PKR.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.toolTipAboutCompanies_PKR.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipAboutCompanies_PKR.ToolTipTitle = "Подсказка";
+            // 
             // roundButtonInfoAboutCompanies
             // 
             this.roundButtonInfoAboutCompanies.BackColor = System.Drawing.Color.Red;
@@ -113,32 +141,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.toolTipAboutCompanies_PKR.SetToolTip(this.roundButtonInfoAboutCompanies, "Нажмите, чтобы стереть информацию о компании,\r\nзатем выберите новую\r\n");
             this.roundButtonInfoAboutCompanies.Click += new System.EventHandler(this.roundButtonInfoAboutCompanies_Click);
             // 
-            // buttonExitFormComp_PKR
-            // 
-            this.buttonExitFormComp_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
-            this.buttonExitFormComp_PKR.FlatAppearance.BorderSize = 0;
-            this.buttonExitFormComp_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonExitFormComp_PKR.ForeColor = System.Drawing.Color.White;
-            this.buttonExitFormComp_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonExitFormComp_PKR.Image")));
-            this.buttonExitFormComp_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonExitFormComp_PKR.Location = new System.Drawing.Point(17, 485);
-            this.buttonExitFormComp_PKR.Name = "buttonExitFormComp_PKR";
-            this.buttonExitFormComp_PKR.Size = new System.Drawing.Size(124, 47);
-            this.buttonExitFormComp_PKR.TabIndex = 4;
-            this.buttonExitFormComp_PKR.Text = "Выход ";
-            this.toolTipAboutCompanies_PKR.SetToolTip(this.buttonExitFormComp_PKR, "Выход в главное меню\r\n");
-            this.buttonExitFormComp_PKR.UseVisualStyleBackColor = false;
-            this.buttonExitFormComp_PKR.Click += new System.EventHandler(this.buttonExitFormComp_PKR_Click);
-            this.buttonExitFormComp_PKR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonExitFormComp_PKR_MouseDown);
-            this.buttonExitFormComp_PKR.MouseLeave += new System.EventHandler(this.buttonExitFormComp_PKR_MouseLeave);
-            // 
-            // toolTipAboutCompanies_PKR
-            // 
-            this.toolTipAboutCompanies_PKR.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.toolTipAboutCompanies_PKR.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.toolTipAboutCompanies_PKR.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipAboutCompanies_PKR.ToolTipTitle = "Подсказка";
-            // 
             // FormAboutCompanies
             // 
             this.AcceptButton = this.buttonExitFormComp_PKR;
@@ -155,7 +157,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAboutCompanies";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AboutCompanies";
+            this.Text = "Сведения о фирмах - реализаторах";
             this.ResumeLayout(false);
             this.PerformLayout();
 
