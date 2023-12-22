@@ -81,6 +81,9 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // 
             // listBoxCompanies_PKR
             // 
+            this.listBoxCompanies_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxCompanies_PKR.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.listBoxCompanies_PKR.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBoxCompanies_PKR.FormattingEnabled = true;
@@ -94,6 +97,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // 
             // buttonExitFormComp_PKR
             // 
+            this.buttonExitFormComp_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonExitFormComp_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.buttonExitFormComp_PKR.FlatAppearance.BorderSize = 0;
             this.buttonExitFormComp_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -109,9 +113,9 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonExitFormComp_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.toolTipAboutCompanies_PKR.SetToolTip(this.buttonExitFormComp_PKR, "Выход в главное меню\r\n");
             this.buttonExitFormComp_PKR.UseVisualStyleBackColor = false;
-            this.buttonExitFormComp_PKR.Click += new System.EventHandler(this.buttonExitFormComp_PKR_Click);
-            this.buttonExitFormComp_PKR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonExitFormComp_PKR_MouseDown);
-            this.buttonExitFormComp_PKR.MouseLeave += new System.EventHandler(this.buttonExitFormComp_PKR_MouseLeave);
+            this.buttonExitFormComp_PKR.Click += new System.EventHandler(this.ButtonExitFormComp_PKR_Click);
+            this.buttonExitFormComp_PKR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonExitFormComp_PKR_MouseDown);
+            this.buttonExitFormComp_PKR.MouseLeave += new System.EventHandler(this.ButtonExitFormComp_PKR_MouseLeave);
             // 
             // toolTipAboutCompanies_PKR
             // 
@@ -134,12 +138,14 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.roundButtonInfoAboutCompanies.ButtonRoundRadius = 15;
             this.roundButtonInfoAboutCompanies.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.roundButtonInfoAboutCompanies.Location = new System.Drawing.Point(296, 61);
+            this.roundButtonInfoAboutCompanies.MaximumSize = new System.Drawing.Size(250, 50);
+            this.roundButtonInfoAboutCompanies.MinimumSize = new System.Drawing.Size(200, 35);
             this.roundButtonInfoAboutCompanies.Name = "roundButtonInfoAboutCompanies";
-            this.roundButtonInfoAboutCompanies.Size = new System.Drawing.Size(210, 41);
+            this.roundButtonInfoAboutCompanies.Size = new System.Drawing.Size(225, 43);
             this.roundButtonInfoAboutCompanies.TabIndex = 3;
             this.roundButtonInfoAboutCompanies.Text = "Стереть данные";
             this.toolTipAboutCompanies_PKR.SetToolTip(this.roundButtonInfoAboutCompanies, "Нажмите, чтобы стереть информацию о компании,\r\nзатем выберите новую\r\n");
-            this.roundButtonInfoAboutCompanies.Click += new System.EventHandler(this.roundButtonInfoAboutCompanies_Click);
+            this.roundButtonInfoAboutCompanies.Click += new System.EventHandler(this.RoundButtonInfoAboutCompanies_Click);
             // 
             // FormAboutCompanies
             // 
@@ -155,6 +161,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Controls.Add(this.ComboBoxCompanies_PKR);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(950, 700);
+            this.MinimumSize = new System.Drawing.Size(900, 500);
             this.Name = "FormAboutCompanies";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Сведения о фирмах - реализаторах";

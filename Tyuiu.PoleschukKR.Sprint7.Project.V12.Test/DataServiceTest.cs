@@ -13,7 +13,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12.Test
         public void ValidCollectTextFromFileMSI()
         {
             DataService ds = new DataService();
-            string path = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания MSI.txt";
+            string path = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Тест.MSI.csv";
             string[] res = ds.CollectTextFromFileMSI(path);
             string[] wait = { "Сведения о компании:", "Наименование: MSI (Micro-Star International Co., Ltd.)", "", "Адрес: No. 69, Lide St., Zhonghe Dist., New Taipei City 235, Taiwan", "", "Телефон: +886-2-3234-3355" };
             CollectionAssert.AreEqual(wait, res);
@@ -24,12 +24,12 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12.Test
         {
             DataService ds = new DataService();
 
-            string path = @"C:\Users\ILYA\Desktop\ЭВМ Тест.csv";
+            string path = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\ЭВМ Тест.csv";
             string[,] res = ds.GetData(path);
 
             string[,] wait = {
-                { "MSI", "AMD Ryzen 5 3600", "8", "3,5", "16", "1000", "01.01.2020", "40000" },
-                { "ASUS", "AMD Ryzen 7 1600", "6", "3,7", "16", "1000", "09.10.2015", "35000" }
+                { "MSI", "AMD Ryzen 5 3600", "8", "3,5", "16", "1000", "2020", "40000" },
+                { "ASUS", "AMD Ryzen 7 1600", "6", "3,7", "16", "1000", "2015", "35000" }
             };
 
             CollectionAssert.AreEqual(wait, res);

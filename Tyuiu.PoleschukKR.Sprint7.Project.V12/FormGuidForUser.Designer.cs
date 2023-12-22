@@ -48,7 +48,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxGuidForUser_PKR.Size = new System.Drawing.Size(745, 366);
             this.textBoxGuidForUser_PKR.TabIndex = 0;
             this.textBoxGuidForUser_PKR.Text = resources.GetString("textBoxGuidForUser_PKR.Text");
-            this.textBoxGuidForUser_PKR.Enter += new System.EventHandler(this.textBoxGuidForUser_PKR_Enter);
+            this.textBoxGuidForUser_PKR.Enter += new System.EventHandler(this.TextBoxGuidForUser_PKR_Enter);
             // 
             // labelGuidForUser_PKR
             // 
@@ -83,10 +83,10 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonExitFromGuidForUser_PKR.Text = "Выход";
             this.buttonExitFromGuidForUser_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonExitFromGuidForUser_PKR.UseVisualStyleBackColor = true;
-            this.buttonExitFromGuidForUser_PKR.Click += new System.EventHandler(this.buttonExitFromGuidForUser_PKR_Click);
-            this.buttonExitFromGuidForUser_PKR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonExitFromGuidForUser_PKR_MouseDown);
-            this.buttonExitFromGuidForUser_PKR.MouseEnter += new System.EventHandler(this.buttonExitFromGuidForUser_PKR_MouseEnter);
-            this.buttonExitFromGuidForUser_PKR.MouseLeave += new System.EventHandler(this.buttonExitFromGuidForUser_PKR_MouseLeave);
+            this.buttonExitFromGuidForUser_PKR.Click += new System.EventHandler(this.ButtonExitFromGuidForUser_PKR_Click);
+            this.buttonExitFromGuidForUser_PKR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonExitFromGuidForUser_PKR_MouseDown);
+            this.buttonExitFromGuidForUser_PKR.MouseEnter += new System.EventHandler(this.ButtonExitFromGuidForUser_PKR_MouseEnter);
+            this.buttonExitFromGuidForUser_PKR.MouseLeave += new System.EventHandler(this.ButtonExitFromGuidForUser_PKR_MouseLeave);
             // 
             // FormGuidForUser
             // 
@@ -100,9 +100,11 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Controls.Add(this.textBoxGuidForUser_PKR);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormGuidForUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Руководство пользователя";
+            this.Load += new System.EventHandler(this.FormGuidForUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGuidForUser_PKR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

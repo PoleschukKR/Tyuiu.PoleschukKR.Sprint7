@@ -18,12 +18,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             InitializeComponent();
         }
         DataService ds = new DataService();
-        string pathPcBase = @"C:\Users\ILYA\Desktop\Проект ЭВМ.csv";
-
-       private void CustomizeDesing()
-        {
-            panelSearchMenu_PKR.Visible = false;
-        }
+        string pathPcBase = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\База ЭВМ.csv";
 
         private void HideSearchMenu()
         {
@@ -55,37 +50,55 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             ShowSearchMenu(panelSearchMenu_PKR);
         }
 
-        
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            //
-            //
-            HideSearchMenu();
-        }
-
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            //
-            //
-            HideSearchMenu();
-        }
-
-
-        private void buttonCompanies_PKR_Click(object sender, EventArgs e)
+        private void ButtonCompanies_PKR_Click(object sender, EventArgs e)
         {
             FormAboutCompanies formaAboutCompanies = new FormAboutCompanies();
             formaAboutCompanies.ShowDialog();
         }
 
-        private void buttonHelp_PKR_Click(object sender, EventArgs e)
+        private void ButtonHelp_PKR_Click(object sender, EventArgs e)
         {
             FormGuidForUser formGuidForUser = new FormGuidForUser();
             formGuidForUser.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        
+        
+
+        private void ButtonAsusMenu_PKR_Click(object sender, EventArgs e)
         {
+            FormASUS formASUS = new FormASUS();
+            formASUS.ShowDialog();
+            HideSearchMenu();
+        }
+
+        private void ButtonMSIMenu_PKR_Click(object sender, EventArgs e)
+        {
+            FormMSI formMSI = new FormMSI();
+            formMSI.ShowDialog();
+            HideSearchMenu();
+        }
+
+        private void ButtonHPMenu_PKR_Click(object sender, EventArgs e)
+        {
+            FormHP formHP = new FormHP();
+            formHP.ShowDialog();
+            HideSearchMenu();
+        }
+
+        private void ButtonHuaweiMenu_PKR_Click(object sender, EventArgs e)
+        {
+            FormHuawei formHuawei = new FormHuawei();
+            formHuawei.ShowDialog();
+            HideSearchMenu();
+        }
+
+        private void ButtonEVMBase_PKR_Click(object sender, EventArgs e)
+        {
+           
+
+            panelMainBase_PKR.Visible = true;
+            panelMainMenu_PKR.Visible = false;
             try
             {
 
@@ -94,48 +107,31 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                 int rows = DataMatrix.GetLength(0);
                 int columns = DataMatrix.GetLength(1);
 
-                dataGridView1.RowCount = rows + 1;
-                dataGridView1.ColumnCount = columns;
+                dataGridViewEVMBase_PKR.RowCount = rows ;
+                dataGridViewEVMBase_PKR.ColumnCount = columns;
 
-                dataGridView1.Columns[0].HeaderText = "Модель";
-                dataGridView1.Columns[0].Width = 350;
+                dataGridViewEVMBase_PKR.Columns[0].HeaderText = "Модель";
+                dataGridViewEVMBase_PKR.Columns[0].Width = 420;
 
-                dataGridView1.Columns[1].HeaderText = "Год релиза";
-                dataGridView1.Columns[1].Width = 80;
+                dataGridViewEVMBase_PKR.Columns[1].HeaderText = "Год релиза";
+                dataGridViewEVMBase_PKR.Columns[1].Width = 80;
 
-                dataGridView1.Columns[2].HeaderText = "Процессор";
-                dataGridView1.Columns[2].Width = 200;
+                dataGridViewEVMBase_PKR.Columns[2].HeaderText = "Процессор";
+                dataGridViewEVMBase_PKR.Columns[2].Width = 250;
 
-                dataGridView1.Columns[3].HeaderText = "Количество ядер";
-                dataGridView1.Columns[3].Width = 120;
 
-                dataGridView1.Columns[4].HeaderText = "Тактовая частота(ГГц)";
-                dataGridView1.Columns[4].Width = 150;
+                dataGridViewEVMBase_PKR.Columns[3].HeaderText = "Видеокарта";
+                dataGridViewEVMBase_PKR.Columns[3].Width = 250;
 
-                dataGridView1.Columns[5].HeaderText = "Объем ОП";
-                dataGridView1.Columns[5].Width = 80;
-
-                dataGridView1.Columns[6].HeaderText = "Видеокарта";
-                dataGridView1.Columns[6].Width = 250;
-
-                dataGridView1.Columns[7].HeaderText = "Диагональ экрана";
-                dataGridView1.Columns[7].Width = 110;
-
-                dataGridView1.Columns[8].HeaderText = "Частота обновления экрана";
-                dataGridView1.Columns[8].Width = 250;
-
-                dataGridView1.Columns[9].HeaderText = "Объем SSD";
-                dataGridView1.Columns[9].Width = 100;
-
-                dataGridView1.Columns[10].HeaderText = "Цена";
-                dataGridView1.Columns[10].Width = 120;
+                dataGridViewEVMBase_PKR.Columns[4].HeaderText = "Цена";
+                dataGridViewEVMBase_PKR.Columns[4].Width = 80;
 
 
                 for (int r = 0; r < rows; r++)
                 {
                     for (int c = 0; c < columns; c++)
                     {
-                        dataGridView1.Rows[r].Cells[c].Value = DataMatrix[r, c];
+                        dataGridViewEVMBase_PKR.Rows[r].Cells[c].Value = DataMatrix[r, c];
                     }
                 }
             }
@@ -145,11 +141,9 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             }
         }
 
-        private void buttonAsusMenu_PKR_Click(object sender, EventArgs e)
+        private void ButtonReturnMainMenu_PKR_Click(object sender, EventArgs e)
         {
-            FormASUS formASUS = new FormASUS();
-            formASUS.ShowDialog();
-            HideSearchMenu();
+            panelMainMenu_PKR.Visible = true;
         }
     }
 }

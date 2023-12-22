@@ -18,7 +18,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             InitializeComponent();
         }
 
-        private void buttonExitFormComp_PKR_Click(object sender, EventArgs e)
+        private void ButtonExitFormComp_PKR_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -27,7 +27,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         {
             if (ComboBoxCompanies_PKR.SelectedIndex == 0)
             {
-                string pathAsus = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания Asus.txt";
+                string pathAsus = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Компания Asus.txt";
                 try
                 {
                     using (StreamReader reader = new StreamReader(pathAsus))
@@ -47,7 +47,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             
             if (ComboBoxCompanies_PKR.SelectedIndex == 1)
             {
-                string pathMSI = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания MSI.txt";
+                string pathMSI = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Компания MSI.txt";
                 try
                 {
                     using (StreamReader reader = new StreamReader(pathMSI))
@@ -67,7 +67,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
             if (ComboBoxCompanies_PKR.SelectedIndex == 2)
             {
-                string pathHP = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания HP.txt";
+                string pathHP = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Компания HP.txt";
                 try
                 {
                     using (StreamReader reader = new StreamReader(pathHP))
@@ -87,7 +87,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
             if (ComboBoxCompanies_PKR.SelectedIndex == 3)
             {
-                string pathHuawei = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания Huawei.txt";
+                string pathHuawei = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Компания Huawei.txt";
                 try
                 {
                     using (StreamReader reader = new StreamReader(pathHuawei))
@@ -108,7 +108,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
             if (ComboBoxCompanies_PKR.SelectedIndex == 4)
             {
-                string pathIntel = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания Intel.txt";
+                string pathIntel = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Компания Intel.txt";
                 try
                 {
                     using (StreamReader reader = new StreamReader(pathIntel))
@@ -128,7 +128,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
             if (ComboBoxCompanies_PKR.SelectedIndex == 5)
             {
-                string pathAMD = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Компания AMD.txt";
+                string pathAMD = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\Компания AMD.txt";
                 try
                 {
                     using (StreamReader reader = new StreamReader(pathAMD))
@@ -147,17 +147,17 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             }
         }
 
-        private void roundButtonInfoAboutCompanies_Click(object sender, EventArgs e)
+        private void RoundButtonInfoAboutCompanies_Click(object sender, EventArgs e)
         {
             listBoxCompanies_PKR.Items.Clear(); // Очистка всех элементов в ListBox
         }
 
-        private void buttonExitFormComp_PKR_MouseDown(object sender, MouseEventArgs e)
+        private void ButtonExitFormComp_PKR_MouseDown(object sender, MouseEventArgs e)
         {
             buttonExitFormComp_PKR.BackColor = Color.Red;
         }
 
-        private void buttonExitFormComp_PKR_MouseLeave(object sender, EventArgs e)
+        private void ButtonExitFormComp_PKR_MouseLeave(object sender, EventArgs e)
         {
             buttonExitFormComp_PKR.BackColor = Color.FromArgb(52,52,52);
 

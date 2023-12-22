@@ -80,8 +80,10 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Controls.Add(this.buttonOkFormAbout_PKR);
             this.Controls.Add(this.labelInfo_PKR);
             this.Controls.Add(this.pictureBoxAvatar_PKR);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Справка";

@@ -118,6 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonProducts_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAA6JJREFUaEPtmkuoTlEYho9blEuShBQhuaSIooPINRKJmJgpDISBEAMycBmZkMhA
+        iYkoIYmSYkAkl9xSyLXkLnc+z7vWt0/HJc5x9trY/U+9g/Ou/X/v+v7O2v/a6/+rKlSoUCEpZjYMLUGT
+        UCe3ywENXUG1uYqWomZ+yf8LTUxFh9B9VJtTqLVf9v9DMx3RQvQKiR0+VB5oalzszT6jzm6XB5o6H9oz
+        m+dWeaCpLbE32+xWeaCpBbE3O+FWeaCpUbE3e+pWeaCp9rG3QClvKg9jbzberfJAU0djb3YLnf0HdAYt
+        9Ok1DAptRP8al316DYNCc2K9sDWb+5f1AIm1Pr2GQaGhsZ69Ro3dLhyyu6Evmgj0drthUKgVyop2d7tw
+        yF4dp2Cn3coHCupmIqa4VSjkNkI3wwzYWLidDxQ8EOvaCrcKhdzhMd7eo/Zu5wMF14XSZrvcKhRyt8Z4
+        2+dWflB0dqxtF9wqDDJboGch3Wya2/lB0QGxdvi3KPTogbyZIdnsCWrudn6oKPqoBOjrdiGQl633TW7l
+        D8V1aCRmupUcsjqgDyHVbIjb+UPxPTHD1riVHLIWx0i75lYaCFgVc2yvW0khR5uHOyHRbLnbaSBgRsyx
+        624lgfrNUDU6rTDQfrKVD6eBgN4hqlheoBE+hXQQ0hS9VWIB6CaiNd7H49NDWHbUtwYNSqReqKlHFgeh
+        O5HY4FZ5oKnlsTc75FZ5oKnJsTe741Z5oCk9DQs9vLZ1uxzQkB4adXsW1W6XAxoajB6H1tKgzflltAP1
+        89j0ELYSZWcpRaBG53t8OgjJtl5iP5qO9G3sLhmOPvu611PbkNCbth3phjULHUPiExrt00gDARdDFBNw
+        qwa89XHI7qI6H/1xbUv0Ui+EZW4H+Ftre28YMTvidv5QvF3MCHRzuwa8Nkjfvooebv8WrtVuRLxBP+xI
+        8AaG0Vi7pdv5QmFth4RCfvqYj/88XFGPB0qunRhfYrfd+gZ8PahmdHQ7XyisR5BswzzW7RrwsndY66bO
+        x25cW/sz82f/EdnZib5lauR2/lB8d4gxu4F6ui2/C8o20wfdrhNcr3WVreWTqIMPaaw/uqcBSHd2Igjo
+        ih6FqLhGdDc7jLKfczxF9f5c4jV6KH2nAqDjO/0W5jjSKZu4jdLvhAjR2junxO+4hAb5ZfWG145BauJ7
+        9D1cnW9QuUDgSLQILUP6rUoTH/pjqNEYTUA6EJK0jtOtswoVKlT4NVVVXwEwqSTeEMEXywAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
   <data name="buttonCompanies_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -213,28 +235,6 @@
         9S9/mS5QRKW6BAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="buttonProducts_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAA6JJREFUaEPtmkuoTlEYho9blEuShBQhuaSIooPINRKJmJgpDISBEAMycBmZkMhA
-        iYkoIYmSYkAkl9xSyLXkLnc+z7vWt0/HJc5x9trY/U+9g/Ou/X/v+v7O2v/a6/+rKlSoUCEpZjYMLUGT
-        UCe3ywENXUG1uYqWomZ+yf8LTUxFh9B9VJtTqLVf9v9DMx3RQvQKiR0+VB5oalzszT6jzm6XB5o6H9oz
-        m+dWeaCpLbE32+xWeaCpBbE3O+FWeaCpUbE3e+pWeaCp9rG3QClvKg9jbzberfJAU0djb3YLnf0HdAYt
-        9Ok1DAptRP8al316DYNCc2K9sDWb+5f1AIm1Pr2GQaGhsZ69Ro3dLhyyu6Evmgj0drthUKgVyop2d7tw
-        yF4dp2Cn3coHCupmIqa4VSjkNkI3wwzYWLidDxQ8EOvaCrcKhdzhMd7eo/Zu5wMF14XSZrvcKhRyt8Z4
-        2+dWflB0dqxtF9wqDDJboGch3Wya2/lB0QGxdvi3KPTogbyZIdnsCWrudn6oKPqoBOjrdiGQl633TW7l
-        D8V1aCRmupUcsjqgDyHVbIjb+UPxPTHD1riVHLIWx0i75lYaCFgVc2yvW0khR5uHOyHRbLnbaSBgRsyx
-        624lgfrNUDU6rTDQfrKVD6eBgN4hqlheoBE+hXQQ0hS9VWIB6CaiNd7H49NDWHbUtwYNSqReqKlHFgeh
-        O5HY4FZ5oKnlsTc75FZ5oKnJsTe741Z5oCk9DQs9vLZ1uxzQkB4adXsW1W6XAxoajB6H1tKgzflltAP1
-        89j0ELYSZWcpRaBG53t8OgjJtl5iP5qO9G3sLhmOPvu611PbkNCbth3phjULHUPiExrt00gDARdDFBNw
-        qwa89XHI7qI6H/1xbUv0Ui+EZW4H+Ftre28YMTvidv5QvF3MCHRzuwa8Nkjfvooebv8WrtVuRLxBP+xI
-        8AaG0Vi7pdv5QmFth4RCfvqYj/88XFGPB0qunRhfYrfd+gZ8PahmdHQ7XyisR5BswzzW7RrwsndY66bO
-        x25cW/sz82f/EdnZib5lauR2/lB8d4gxu4F6ui2/C8o20wfdrhNcr3WVreWTqIMPaaw/uqcBSHd2Igjo
-        ih6FqLhGdDc7jLKfczxF9f5c4jV6KH2nAqDjO/0W5jjSKZu4jdLvhAjR2junxO+4hAb5ZfWG145BauJ7
-        9D1cnW9QuUDgSLQILUP6rUoTH/pjqNEYTUA6EJK0jtOtswoVKlT4NVVVXwEwqSTeEMEXywAAAABJRU5E
-        rkJggg==
-</value>
-  </data>
   <data name="buttonSearch_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -255,6 +255,26 @@
         PRRWo8uwCVtQH/tPo77lbUcthKfY8B5hjBr0+7juKG92GowKGtAS7JC6SUOy92Ac0IAa1FlPR943mL17
         MCpooNCgDR2c0MB/0aAWD+nIm8eEVkDpqLFhgxeaSHcGB/+Z89CIGvTfNfKnMQ8NqcEa/WuhAgVym6Ki
         P4v8FxdRTV6/AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBoxMenuGreeting_PKR.Text" xml:space="preserve">
+    <value>      
+  	            Приветствуем Вас в ItCompare!
+
+Если вы хотите ознакомиться с общей базой ноутбуков, представленных в этой программе, и посмотреть их основные характеристики, то нажмите на кнопку "Посмотреть базу". 
+ 
+Если же Вас заинтересовала какая - либо модель и Вы хотите посмотреть фотографии или узнать другие характеристики, в разделе "Поиск" выберите интересующего производителя.
+
+Кроме того, Вы можете посмотреть видео обзор интересующего гаджета или похожей модели, кликнув на ссылку на панели с характеристиками.
+ </value>
+  </data>
+  <data name="buttonReturnMainMenu_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAMtJREFUSEtjGAWjYHACe3t7CSC+4uDgYA8Voj5wdXUVg1oyG8hlgohSGQwfS4CA
+        EWQJEP8B4j1Ay3YTwKsdHR2TQPog2kkAQAumgiwCGlIHNCQNHwaqywWquw6kW6HaSQIgX80AGnANSEtA
+        xXACOzs7XaDad0Am6b4CApBlU4D4houLixRUDCsAxik30KL/IBoqRDKA+8zGxkYUKoYBqGERCIAsq3Vy
+        cjKC8jEAtSwiCEYtIhuEhoayAePxBYiGCtEUkJWHRsGIAgwMAGZ3XA4Fzy7eAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
