@@ -118,6 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBoxHPEnvy1Star_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        X2bQoL8BkJEGtXorRAQAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBoxHPEnvy1_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAGDCAYAAADd8eLzAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -3720,15 +3750,6 @@
         77d//vOf/5PLly//zaaNNyz49Ya/Ku1UAN0GY4c2kDo0wT98+9vfPrRB76EF0Yfz588fTp06dfjUpz51
         +OQnP3log5ceeLdjV/B3OPw/IAGj9dgU+LkAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="textBoxHPEnvy_PKR.Text" xml:space="preserve">
-    <value>Модель: HP Envy x360 15-fe0053dx   Год релиза: 2023
-Процессор: Intel Core i7-1355U  Количество ядер: 10
-Тактовая частота: 1,7 ГГц
-Видеокарта: Intel Iris Xe Graphics
-Объем оперативной памяти: 16 ГБ   Объем SSD: 512 ГБ
-Диагональ экрана: 15,6  Частота обновления: 60 Гц
-Цена: 149000 рублей</value>
   </data>
   <data name="pictureBoxHPEnvy2_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9975,6 +9996,69 @@
         8X/3Iyrq/wfgD6Yt8w4jhgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pictureBoxHPEnvy2Star_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAABHNJREFUaEPtWl2IVVUUvmkagqKW49n7qEgYkVKQPyS+lJKmDxqigSiUEfUQGZEg
+        +uKLReqjhIj4IgpBg9hLiagw3rPPGRVHEH8w6QcSJaEUZUq99xzdfuve5TRzZ925d4azr+cMffAxzDl7
+        rW+tvc9eZ5+9b+F/pIA4VKuTUJ2PjV7Cl4YHrC08E4f6tyTUFgmGfHl4gEarmliV9pSaybfyDzyS3/VO
+        LjZqJ9/KN2zH9AlI5l7f5PRN21UYxU3yi8ToDb0T60kw9N/lJvkFCsg5KTlc/4Gb5BOlzsmvyYnRyOnY
+        Fidpbpo/YK7tkhL7j94mbpov2EuzRqNK/iUnVSWS/5negWySHyShv0ZKqJbl0F/AJvlBYtRRKZlaYvT2
+        sUk+YE9PmYqCkUjJ1BLtum1H21g2zT4walulROrT+5BNs43KItnoX+Uk6tDoIptnG3HoLRITaEAb6VfY
+        RXaBUTsoBd+IeG18wy6yCds1cTyq379S8I2IwvKn7Sg8y67cggK1nVOn0ONSDtW82PiLEfgqFIv1ifE+
+        wzzZgt7egaB2gwewVjxcfx3ZJI2K4PcQ/O2H72/B7fh/M/x+mgTq/TjQKymOstFzbeC/TMs3G74wjkPu
+        DzjaBgdnEfgV8DoeqzuicMaJjrgNXkM+l5HPGVz7nD4k79c2HA5EXlcLcaSXUtZSg7yyMoqB/3bl0bRh
+        2wwM5UWpYd5II9bvtUJLoGpRkI1yQaN/okLIKfUFrS6oOqGoPBSNM0rE+wgjtgPxj+BU6iMOvOUwuCs5
+        yhpRHbuR2GoOvTnQFgEMeSM1m0RS10pFPYdDHhzwEn8e8/CY5PipE4ttG3mTOdShwbYXRtLzLAo8JeKJ
+        2pvqvid6ah1WMH02V1tNdPKDxPgfcUjpohT5syHwhyTsmujYG+XAm8+huIENVBvETtaKO6VRnS3b47RH
+        XnoOPblPDCRl0vchCtsYlm4NBtpNTpOlyHuVJVsHvCI2SsGkT/UlS7YOED7SPxAHxHqRJVuD6la57haD
+        SZnQ+YfmOEu7R2y8hVIgrlgO1Fss7R6oYF9LQbgiRu8rlnYPzAPaoxADccTTLO0WlTPuJs8B0iLp0SKe
+        Q3AH+naSAnBNLBpWcQjugPm2RxJvSKOCOFDL6K94vwFJl0NwB4gM6pAD7e9ijn7xZAugupWhPsBI3JLa
+        1yPa/1IJwBVspKZLwnVp9I+26E9j8z6ghTDuHxLt6tAWvRfZPH1A4JNaQYkYrZs0Omw2IGLjr8CoXJf8
+        CPyYzdIHnLfXiElstx16Eps0Ba7Ae9EpjwR/PUSb79kkXdCcQaWs++sECP8OvsPNh4RypN6ExlXJPxEj
+        /HdT23eDBZ2syIL6IfV6Wufa9O2GBOn0SHyXDnm3ayBg8m/pJ2b0hXKn9wY3SRWl0H8dGl2C5mZukh5Q
+        IE48EcBolal36euAbzsBHUZSMtDqdRKljvPt9ACn56s9p4JWn1+TXs/L3+iLfDk90K9bk0CvdTKhm0Cl
+        oEXqvWH1K9uho1B4DLoLCS8EcXbxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBoxHPEnvy_PKR.Text" xml:space="preserve">
+    <value>Модель: HP Envy x360 15-fe0053dx   Год релиза: 2023
+Процессор: Intel Core i7-1355U  Количество ядер: 10
+Тактовая частота: 1,7 ГГц    Объем SSD: 512 ГБ
+Видеокарта: Intel Iris Xe Graphics ОЗУ: 16 ГБ
+Диагональ экрана: 15,6  Частота обновления: 60 Гц
+Цена: 149000 рублей</value>
+  </data>
+  <data name="pictureBoxHPSpec1Star_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        X2bQoL8BkJEGtXorRAQAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBoxHPSpec1_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAF3CAYAAABT8rn8AAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -13683,15 +13767,6 @@
         xpr/Sdf635921up/oLb5KWHxp9Te7zvj3A2Pn7V24/Vnrt6w78xzN64+d93Wbzp3x8Wrtu2/ZNWOi4+v
         uvjErate96b3rPrsz/7DYr3/v36rVv2/q1RUmfDvftsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="textBoxHPSpec_PKR.Text" xml:space="preserve">
-    <value>Модель: HP Spectre x360 16-f1032nn   Год релиза: 2022
-Процессор: Intel Core i7-12700H Количество ядер: 14
-Тактовая частота: 2,3 ГГц
-Видеокарта: Intel Iris Xe Graphics
-Объем оперативной памяти: 16 ГБ   Объем SSD: 512 ГБ
-Диагональ экрана: 16  Частота обновления: 60 Гц
-Цена: 236000 рублей</value>
   </data>
   <data name="pictureBoxHPSpec2_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -19822,6 +19897,69 @@
         roLj9QAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pictureBoxHPSpec2Star_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAABHNJREFUaEPtWl2IVVUUvmkagqKW49n7qEgYkVKQPyS+lJKmDxqigSiUEfUQGZEg
+        +uKLReqjhIj4IgpBg9hLiagw3rPPGRVHEH8w6QcSJaEUZUq99xzdfuve5TRzZ925d4azr+cMffAxzDl7
+        rW+tvc9eZ5+9b+F/pIA4VKuTUJ2PjV7Cl4YHrC08E4f6tyTUFgmGfHl4gEarmliV9pSaybfyDzyS3/VO
+        LjZqJ9/KN2zH9AlI5l7f5PRN21UYxU3yi8ToDb0T60kw9N/lJvkFCsg5KTlc/4Gb5BOlzsmvyYnRyOnY
+        Fidpbpo/YK7tkhL7j94mbpov2EuzRqNK/iUnVSWS/5negWySHyShv0ZKqJbl0F/AJvlBYtRRKZlaYvT2
+        sUk+YE9PmYqCkUjJ1BLtum1H21g2zT4walulROrT+5BNs43KItnoX+Uk6tDoIptnG3HoLRITaEAb6VfY
+        RXaBUTsoBd+IeG18wy6yCds1cTyq379S8I2IwvKn7Sg8y67cggK1nVOn0ONSDtW82PiLEfgqFIv1ifE+
+        wzzZgt7egaB2gwewVjxcfx3ZJI2K4PcQ/O2H72/B7fh/M/x+mgTq/TjQKymOstFzbeC/TMs3G74wjkPu
+        DzjaBgdnEfgV8DoeqzuicMaJjrgNXkM+l5HPGVz7nD4k79c2HA5EXlcLcaSXUtZSg7yyMoqB/3bl0bRh
+        2wwM5UWpYd5II9bvtUJLoGpRkI1yQaN/okLIKfUFrS6oOqGoPBSNM0rE+wgjtgPxj+BU6iMOvOUwuCs5
+        yhpRHbuR2GoOvTnQFgEMeSM1m0RS10pFPYdDHhzwEn8e8/CY5PipE4ttG3mTOdShwbYXRtLzLAo8JeKJ
+        2pvqvid6ah1WMH02V1tNdPKDxPgfcUjpohT5syHwhyTsmujYG+XAm8+huIENVBvETtaKO6VRnS3b47RH
+        XnoOPblPDCRl0vchCtsYlm4NBtpNTpOlyHuVJVsHvCI2SsGkT/UlS7YOED7SPxAHxHqRJVuD6la57haD
+        SZnQ+YfmOEu7R2y8hVIgrlgO1Fss7R6oYF9LQbgiRu8rlnYPzAPaoxADccTTLO0WlTPuJs8B0iLp0SKe
+        Q3AH+naSAnBNLBpWcQjugPm2RxJvSKOCOFDL6K94vwFJl0NwB4gM6pAD7e9ijn7xZAugupWhPsBI3JLa
+        1yPa/1IJwBVspKZLwnVp9I+26E9j8z6ghTDuHxLt6tAWvRfZPH1A4JNaQYkYrZs0Omw2IGLjr8CoXJf8
+        CPyYzdIHnLfXiElstx16Eps0Ba7Ae9EpjwR/PUSb79kkXdCcQaWs++sECP8OvsPNh4RypN6ExlXJPxEj
+        /HdT23eDBZ2syIL6IfV6Wufa9O2GBOn0SHyXDnm3ayBg8m/pJ2b0hXKn9wY3SRWl0H8dGl2C5mZukh5Q
+        IE48EcBolal36euAbzsBHUZSMtDqdRKljvPt9ACn56s9p4JWn1+TXs/L3+iLfDk90K9bk0CvdTKhm0Cl
+        oEXqvWH1K9uho1B4DLoLCS8EcXbxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBoxHPSpec_PKR.Text" xml:space="preserve">
+    <value>Модель: HP Spectre x360 16-f1032nn   
+Процессор: Intel Core i7-12700H Количество ядер: 14
+Тактовая частота: 2,3 ГГц    Объем SSD: 512 ГБ
+Видеокарта: Intel Iris Xe Graphics  ОЗУ: 16 ГБ
+Диагональ экрана: 16  Частота обновления: 60 Гц
+Год релиза: 2022  Цена: 236000 рублей</value>
+  </data>
+  <data name="pictureBoxHPVic1Star_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        X2bQoL8BkJEGtXorRAQAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBoxHPVic1_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAYAAACadoJwAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -22975,15 +23113,6 @@
         /vv3l3N3f9kf+9/73sf2f+lLX/p7v/mb/+UHvvKVr/z9P/iDP6jvffzu7/7ut+DL5/v2/X+A9q2HC+AK
         rAAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="textBoxHPVic_PKR.Text" xml:space="preserve">
-    <value>Модель: HP Victus 16-e0146ur   Год релиза: 2021
-Процессор: AMD Ryzen 5 5600H Количество ядер: 6
-Тактовая частота: 3,3 ГГц
-Видеокарта: GeForce RTX 3050 Ti
-Объем оперативной памяти: 8 ГБ   Объем SSD: 512 ГБ
-Диагональ экрана: 16,1  Частота обновления: 144 Гц
-Цена: 114500 рублей</value>
   </data>
   <data name="pictureBoxHPVic2_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -30191,6 +30320,39 @@
         a34di1UdFgk5IGLRLoKxMhKJNYhwzAiFIoFZs4KBYDAckNdOmj+/tmTxosWjzIiR5pprr7PvCVO9sOUK
         1Y5HHnnEPkcIIYRcGRjzbxuE0zG1GsYBAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="pictureBoxHPVic2Star_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAABHNJREFUaEPtWl2IVVUUvmkagqKW49n7qEgYkVKQPyS+lJKmDxqigSiUEfUQGZEg
+        +uKLReqjhIj4IgpBg9hLiagw3rPPGRVHEH8w6QcSJaEUZUq99xzdfuve5TRzZ925d4azr+cMffAxzDl7
+        rW+tvc9eZ5+9b+F/pIA4VKuTUJ2PjV7Cl4YHrC08E4f6tyTUFgmGfHl4gEarmliV9pSaybfyDzyS3/VO
+        LjZqJ9/KN2zH9AlI5l7f5PRN21UYxU3yi8ToDb0T60kw9N/lJvkFCsg5KTlc/4Gb5BOlzsmvyYnRyOnY
+        Fidpbpo/YK7tkhL7j94mbpov2EuzRqNK/iUnVSWS/5negWySHyShv0ZKqJbl0F/AJvlBYtRRKZlaYvT2
+        sUk+YE9PmYqCkUjJ1BLtum1H21g2zT4walulROrT+5BNs43KItnoX+Uk6tDoIptnG3HoLRITaEAb6VfY
+        RXaBUTsoBd+IeG18wy6yCds1cTyq379S8I2IwvKn7Sg8y67cggK1nVOn0ONSDtW82PiLEfgqFIv1ifE+
+        wzzZgt7egaB2gwewVjxcfx3ZJI2K4PcQ/O2H72/B7fh/M/x+mgTq/TjQKymOstFzbeC/TMs3G74wjkPu
+        DzjaBgdnEfgV8DoeqzuicMaJjrgNXkM+l5HPGVz7nD4k79c2HA5EXlcLcaSXUtZSg7yyMoqB/3bl0bRh
+        2wwM5UWpYd5II9bvtUJLoGpRkI1yQaN/okLIKfUFrS6oOqGoPBSNM0rE+wgjtgPxj+BU6iMOvOUwuCs5
+        yhpRHbuR2GoOvTnQFgEMeSM1m0RS10pFPYdDHhzwEn8e8/CY5PipE4ttG3mTOdShwbYXRtLzLAo8JeKJ
+        2pvqvid6ah1WMH02V1tNdPKDxPgfcUjpohT5syHwhyTsmujYG+XAm8+huIENVBvETtaKO6VRnS3b47RH
+        XnoOPblPDCRl0vchCtsYlm4NBtpNTpOlyHuVJVsHvCI2SsGkT/UlS7YOED7SPxAHxHqRJVuD6la57haD
+        SZnQ+YfmOEu7R2y8hVIgrlgO1Fss7R6oYF9LQbgiRu8rlnYPzAPaoxADccTTLO0WlTPuJs8B0iLp0SKe
+        Q3AH+naSAnBNLBpWcQjugPm2RxJvSKOCOFDL6K94vwFJl0NwB4gM6pAD7e9ijn7xZAugupWhPsBI3JLa
+        1yPa/1IJwBVspKZLwnVp9I+26E9j8z6ghTDuHxLt6tAWvRfZPH1A4JNaQYkYrZs0Omw2IGLjr8CoXJf8
+        CPyYzdIHnLfXiElstx16Eps0Ba7Ae9EpjwR/PUSb79kkXdCcQaWs++sECP8OvsPNh4RypN6ExlXJPxEj
+        /HdT23eDBZ2syIL6IfV6Wufa9O2GBOn0SHyXDnm3ayBg8m/pJ2b0hXKn9wY3SRWl0H8dGl2C5mZukh5Q
+        IE48EcBolal36euAbzsBHUZSMtDqdRKljvPt9ACn56s9p4JWn1+TXs/L3+iLfDk90K9bk0CvdTKhm0Cl
+        oEXqvWH1K9uho1B4DLoLCS8EcXbxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBoxHPVic_PKR.Text" xml:space="preserve">
+    <value>Модель: HP Victus 16-e0146ur  
+Процессор: AMD Ryzen 5 5600H Количество ядер: 6
+Тактовая частота: 3,3 ГГц    Объем SSD: 512 ГБ
+Видеокарта: GeForce RTX 3050 Ti  ОЗУ: 8 ГБ 
+Диагональ экрана: 16,1  Частота обновления: 144 Гц
+Год релиза: 2021  Цена: 114500 рублей</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

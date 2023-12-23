@@ -20,6 +20,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         DataService ds = new DataService();
         string pathPcBase = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\База ЭВМ.csv";
 
+        public static ListBox ListBoxControl { get; internal set; }
+
         private void HideSearchMenu()
         {
             if (panelSearchMenu_PKR.Visible == true)

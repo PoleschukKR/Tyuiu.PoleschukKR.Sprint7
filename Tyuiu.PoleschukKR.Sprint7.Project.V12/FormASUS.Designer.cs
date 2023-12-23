@@ -31,66 +31,91 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormASUS));
             this.panelAsusRog_PKR = new System.Windows.Forms.Panel();
+            this.pictureBoxAsusRog1Star_PKR = new System.Windows.Forms.PictureBox();
+            this.buttonAsusRogStar_PKR = new System.Windows.Forms.Button();
             this.pictureBoxAsusRog1_PKR = new System.Windows.Forms.PictureBox();
             this.linkLabelAsusRog_PKR = new System.Windows.Forms.LinkLabel();
-            this.textBoxAsusRog_PKR = new System.Windows.Forms.TextBox();
             this.pictureBoxAsusRog2_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusRog3_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusRog4_PKR = new System.Windows.Forms.PictureBox();
             this.buttonAsusRogChangePicture_PKR = new System.Windows.Forms.Button();
+            this.pictureBoxAsusRog2Star_PKR = new System.Windows.Forms.PictureBox();
+            this.textBoxAsusRog_PKR = new System.Windows.Forms.TextBox();
             this.panelAsusZen_PKR = new System.Windows.Forms.Panel();
+            this.pictureBoxAsusZen1Star_PKR = new System.Windows.Forms.PictureBox();
+            this.buttonAsusZenStar_PKR = new System.Windows.Forms.Button();
             this.linkLabelAsusZen_PKR = new System.Windows.Forms.LinkLabel();
             this.pictureBoxAsusZen1_PKR = new System.Windows.Forms.PictureBox();
-            this.textBoxAsusZen_PKR = new System.Windows.Forms.TextBox();
             this.pictureBoxAsusZen2_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusZen3_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusZen4_PKR = new System.Windows.Forms.PictureBox();
             this.buttonAsusZenPictureChange_PKR = new System.Windows.Forms.Button();
+            this.pictureBoxAsusZen2Star_PKR = new System.Windows.Forms.PictureBox();
+            this.textBoxAsusZen_PKR = new System.Windows.Forms.TextBox();
             this.panelAsusVivo17_PKR = new System.Windows.Forms.Panel();
+            this.pictureBoxAsusVivo171Star_PKR = new System.Windows.Forms.PictureBox();
+            this.buttonAsusVivo17Star_PKR = new System.Windows.Forms.Button();
             this.linkLabelAsusVivo17_PKR = new System.Windows.Forms.LinkLabel();
             this.pictureBoxAsusVivo171_PKR = new System.Windows.Forms.PictureBox();
-            this.textBoxAsusVivo17_PKR = new System.Windows.Forms.TextBox();
             this.pictureBoxAsusVivo172_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusVivo173_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusVivo174_PKR = new System.Windows.Forms.PictureBox();
             this.buttonAsusVivo17ChangePicture_PKR = new System.Windows.Forms.Button();
+            this.pictureBoxAsusVivo172Star_PKR = new System.Windows.Forms.PictureBox();
+            this.textBoxAsusVivo17_PKR = new System.Windows.Forms.TextBox();
             this.panelAsusVivo15_PKR = new System.Windows.Forms.Panel();
+            this.pictureBoxAsusVivo151Star_PKR = new System.Windows.Forms.PictureBox();
+            this.buttonAsusvivo15Star_PKR = new System.Windows.Forms.Button();
+            this.pictureBoxAsusVivo152Star_PKR = new System.Windows.Forms.PictureBox();
             this.linkLabelAsusVivo15_PKR = new System.Windows.Forms.LinkLabel();
             this.pictureBoxAsusVivo151_PKR = new System.Windows.Forms.PictureBox();
-            this.textBoxAsusVivo15_PKR = new System.Windows.Forms.TextBox();
             this.pictureBoxAsusVivo152_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusVivo153_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusVivo154_PKR = new System.Windows.Forms.PictureBox();
             this.buttonAsusVivo15PictureChange_PKR = new System.Windows.Forms.Button();
+            this.textBoxAsusVivo15_PKR = new System.Windows.Forms.TextBox();
             this.panelAsusVivo16_PKR = new System.Windows.Forms.Panel();
+            this.pictureBoxAsusVivo161Star_PKR = new System.Windows.Forms.PictureBox();
+            this.buttonAsusVivo16Star_PKR = new System.Windows.Forms.Button();
+            this.pictureBoxAsusVivo162Star_PKR = new System.Windows.Forms.PictureBox();
             this.linkLabelAsusVivo16_PKR = new System.Windows.Forms.LinkLabel();
             this.pictureBoxAsusVivo161_PKR = new System.Windows.Forms.PictureBox();
-            this.textBoxAsusVivo16_PKR = new System.Windows.Forms.TextBox();
             this.pictureBoxAsusVivo162_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusVivo163_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxAsusVivo164_PKR = new System.Windows.Forms.PictureBox();
             this.buttonAsusVivo16PictureChange_PKR = new System.Windows.Forms.Button();
+            this.textBoxAsusVivo16_PKR = new System.Windows.Forms.TextBox();
             this.panelAsusRog_PKR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog1Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog1_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog2_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog3_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog4_PKR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog2Star_PKR)).BeginInit();
             this.panelAsusZen_PKR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen1Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen1_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen2_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen3_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen4_PKR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen2Star_PKR)).BeginInit();
             this.panelAsusVivo17_PKR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo171Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo171_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo172_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo173_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo174_PKR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo172Star_PKR)).BeginInit();
             this.panelAsusVivo15_PKR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo151Star_PKR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo152Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo151_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo152_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo153_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo154_PKR)).BeginInit();
             this.panelAsusVivo16_PKR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo161Star_PKR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo162Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo161_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo162_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo163_PKR)).BeginInit();
@@ -101,17 +126,51 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // 
             this.panelAsusRog_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAsusRog_PKR.Controls.Add(this.pictureBoxAsusRog1Star_PKR);
+            this.panelAsusRog_PKR.Controls.Add(this.buttonAsusRogStar_PKR);
             this.panelAsusRog_PKR.Controls.Add(this.pictureBoxAsusRog1_PKR);
             this.panelAsusRog_PKR.Controls.Add(this.linkLabelAsusRog_PKR);
-            this.panelAsusRog_PKR.Controls.Add(this.textBoxAsusRog_PKR);
             this.panelAsusRog_PKR.Controls.Add(this.pictureBoxAsusRog2_PKR);
             this.panelAsusRog_PKR.Controls.Add(this.pictureBoxAsusRog3_PKR);
             this.panelAsusRog_PKR.Controls.Add(this.pictureBoxAsusRog4_PKR);
             this.panelAsusRog_PKR.Controls.Add(this.buttonAsusRogChangePicture_PKR);
+            this.panelAsusRog_PKR.Controls.Add(this.pictureBoxAsusRog2Star_PKR);
+            this.panelAsusRog_PKR.Controls.Add(this.textBoxAsusRog_PKR);
             this.panelAsusRog_PKR.Location = new System.Drawing.Point(8, 8);
             this.panelAsusRog_PKR.Name = "panelAsusRog_PKR";
-            this.panelAsusRog_PKR.Size = new System.Drawing.Size(719, 170);
+            this.panelAsusRog_PKR.Size = new System.Drawing.Size(685, 170);
             this.panelAsusRog_PKR.TabIndex = 0;
+            // 
+            // pictureBoxAsusRog1Star_PKR
+            // 
+            this.pictureBoxAsusRog1Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusRog1Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusRog1Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusRog1Star_PKR.Image")));
+            this.pictureBoxAsusRog1Star_PKR.Location = new System.Drawing.Point(636, 16);
+            this.pictureBoxAsusRog1Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusRog1Star_PKR.Name = "pictureBoxAsusRog1Star_PKR";
+            this.pictureBoxAsusRog1Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusRog1Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusRog1Star_PKR.TabIndex = 34;
+            this.pictureBoxAsusRog1Star_PKR.TabStop = false;
+            // 
+            // buttonAsusRogStar_PKR
+            // 
+            this.buttonAsusRogStar_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonAsusRogStar_PKR.AutoSize = true;
+            this.buttonAsusRogStar_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.buttonAsusRogStar_PKR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAsusRogStar_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonAsusRogStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAsusRogStar_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.buttonAsusRogStar_PKR.ImageIndex = 0;
+            this.buttonAsusRogStar_PKR.Location = new System.Drawing.Point(555, 120);
+            this.buttonAsusRogStar_PKR.Name = "buttonAsusRogStar_PKR";
+            this.buttonAsusRogStar_PKR.Size = new System.Drawing.Size(106, 38);
+            this.buttonAsusRogStar_PKR.TabIndex = 33;
+            this.buttonAsusRogStar_PKR.Text = " Избранное";
+            this.buttonAsusRogStar_PKR.UseVisualStyleBackColor = false;
+            this.buttonAsusRogStar_PKR.Click += new System.EventHandler(this.ButtonAsusRogStar_PKR_Click);
             // 
             // pictureBoxAsusRog1_PKR
             // 
@@ -130,30 +189,13 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.linkLabelAsusRog_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.linkLabelAsusRog_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabelAsusRog_PKR.LinkColor = System.Drawing.Color.DarkRed;
-            this.linkLabelAsusRog_PKR.Location = new System.Drawing.Point(582, 135);
+            this.linkLabelAsusRog_PKR.Location = new System.Drawing.Point(221, 138);
             this.linkLabelAsusRog_PKR.Name = "linkLabelAsusRog_PKR";
             this.linkLabelAsusRog_PKR.Size = new System.Drawing.Size(99, 20);
             this.linkLabelAsusRog_PKR.TabIndex = 28;
             this.linkLabelAsusRog_PKR.TabStop = true;
             this.linkLabelAsusRog_PKR.Text = "Видео обзор";
             this.linkLabelAsusRog_PKR.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelAsusRog_PKR_LinkClicked);
-            // 
-            // textBoxAsusRog_PKR
-            // 
-            this.textBoxAsusRog_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAsusRog_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.textBoxAsusRog_PKR.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxAsusRog_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAsusRog_PKR.Location = new System.Drawing.Point(213, 2);
-            this.textBoxAsusRog_PKR.Multiline = true;
-            this.textBoxAsusRog_PKR.Name = "textBoxAsusRog_PKR";
-            this.textBoxAsusRog_PKR.ReadOnly = true;
-            this.textBoxAsusRog_PKR.Size = new System.Drawing.Size(503, 165);
-            this.textBoxAsusRog_PKR.TabIndex = 22;
-            this.textBoxAsusRog_PKR.TabStop = false;
-            this.textBoxAsusRog_PKR.Text = resources.GetString("textBoxAsusRog_PKR.Text");
-            this.textBoxAsusRog_PKR.Enter += new System.EventHandler(this.TextBoxAsusRog_PKR_Enter);
             // 
             // pictureBoxAsusRog2_PKR
             // 
@@ -201,21 +243,86 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonAsusRogChangePicture_PKR.UseVisualStyleBackColor = true;
             this.buttonAsusRogChangePicture_PKR.Click += new System.EventHandler(this.ButtonAsusRogChangePicture_PKR_Click);
             // 
+            // pictureBoxAsusRog2Star_PKR
+            // 
+            this.pictureBoxAsusRog2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusRog2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusRog2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusRog2Star_PKR.Image")));
+            this.pictureBoxAsusRog2Star_PKR.Location = new System.Drawing.Point(636, 16);
+            this.pictureBoxAsusRog2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusRog2Star_PKR.Name = "pictureBoxAsusRog2Star_PKR";
+            this.pictureBoxAsusRog2Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusRog2Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusRog2Star_PKR.TabIndex = 35;
+            this.pictureBoxAsusRog2Star_PKR.TabStop = false;
+            this.pictureBoxAsusRog2Star_PKR.Visible = false;
+            // 
+            // textBoxAsusRog_PKR
+            // 
+            this.textBoxAsusRog_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAsusRog_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.textBoxAsusRog_PKR.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxAsusRog_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAsusRog_PKR.Location = new System.Drawing.Point(213, 2);
+            this.textBoxAsusRog_PKR.Multiline = true;
+            this.textBoxAsusRog_PKR.Name = "textBoxAsusRog_PKR";
+            this.textBoxAsusRog_PKR.ReadOnly = true;
+            this.textBoxAsusRog_PKR.Size = new System.Drawing.Size(469, 165);
+            this.textBoxAsusRog_PKR.TabIndex = 22;
+            this.textBoxAsusRog_PKR.TabStop = false;
+            this.textBoxAsusRog_PKR.Text = resources.GetString("textBoxAsusRog_PKR.Text");
+            this.textBoxAsusRog_PKR.Enter += new System.EventHandler(this.TextBoxAsusRog_PKR_Enter);
+            // 
             // panelAsusZen_PKR
             // 
             this.panelAsusZen_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAsusZen_PKR.Controls.Add(this.pictureBoxAsusZen1Star_PKR);
+            this.panelAsusZen_PKR.Controls.Add(this.buttonAsusZenStar_PKR);
             this.panelAsusZen_PKR.Controls.Add(this.linkLabelAsusZen_PKR);
             this.panelAsusZen_PKR.Controls.Add(this.pictureBoxAsusZen1_PKR);
-            this.panelAsusZen_PKR.Controls.Add(this.textBoxAsusZen_PKR);
             this.panelAsusZen_PKR.Controls.Add(this.pictureBoxAsusZen2_PKR);
             this.panelAsusZen_PKR.Controls.Add(this.pictureBoxAsusZen3_PKR);
             this.panelAsusZen_PKR.Controls.Add(this.pictureBoxAsusZen4_PKR);
             this.panelAsusZen_PKR.Controls.Add(this.buttonAsusZenPictureChange_PKR);
+            this.panelAsusZen_PKR.Controls.Add(this.pictureBoxAsusZen2Star_PKR);
+            this.panelAsusZen_PKR.Controls.Add(this.textBoxAsusZen_PKR);
             this.panelAsusZen_PKR.Location = new System.Drawing.Point(8, 204);
             this.panelAsusZen_PKR.Name = "panelAsusZen_PKR";
-            this.panelAsusZen_PKR.Size = new System.Drawing.Size(719, 170);
+            this.panelAsusZen_PKR.Size = new System.Drawing.Size(685, 170);
             this.panelAsusZen_PKR.TabIndex = 1;
+            // 
+            // pictureBoxAsusZen1Star_PKR
+            // 
+            this.pictureBoxAsusZen1Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusZen1Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusZen1Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusZen1Star_PKR.Image")));
+            this.pictureBoxAsusZen1Star_PKR.Location = new System.Drawing.Point(636, 11);
+            this.pictureBoxAsusZen1Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusZen1Star_PKR.Name = "pictureBoxAsusZen1Star_PKR";
+            this.pictureBoxAsusZen1Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusZen1Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusZen1Star_PKR.TabIndex = 35;
+            this.pictureBoxAsusZen1Star_PKR.TabStop = false;
+            // 
+            // buttonAsusZenStar_PKR
+            // 
+            this.buttonAsusZenStar_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonAsusZenStar_PKR.AutoSize = true;
+            this.buttonAsusZenStar_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.buttonAsusZenStar_PKR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAsusZenStar_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonAsusZenStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAsusZenStar_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.buttonAsusZenStar_PKR.ImageIndex = 0;
+            this.buttonAsusZenStar_PKR.Location = new System.Drawing.Point(555, 119);
+            this.buttonAsusZenStar_PKR.Name = "buttonAsusZenStar_PKR";
+            this.buttonAsusZenStar_PKR.Size = new System.Drawing.Size(106, 38);
+            this.buttonAsusZenStar_PKR.TabIndex = 34;
+            this.buttonAsusZenStar_PKR.Text = " Избранное";
+            this.buttonAsusZenStar_PKR.UseVisualStyleBackColor = false;
+            this.buttonAsusZenStar_PKR.Click += new System.EventHandler(this.ButtonAsusZenStar_PKR_Click);
             // 
             // linkLabelAsusZen_PKR
             // 
@@ -223,7 +330,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.linkLabelAsusZen_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.linkLabelAsusZen_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabelAsusZen_PKR.LinkColor = System.Drawing.Color.DarkRed;
-            this.linkLabelAsusZen_PKR.Location = new System.Drawing.Point(582, 133);
+            this.linkLabelAsusZen_PKR.Location = new System.Drawing.Point(221, 137);
             this.linkLabelAsusZen_PKR.Name = "linkLabelAsusZen_PKR";
             this.linkLabelAsusZen_PKR.Size = new System.Drawing.Size(99, 20);
             this.linkLabelAsusZen_PKR.TabIndex = 29;
@@ -241,22 +348,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxAsusZen1_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAsusZen1_PKR.TabIndex = 24;
             this.pictureBoxAsusZen1_PKR.TabStop = false;
-            // 
-            // textBoxAsusZen_PKR
-            // 
-            this.textBoxAsusZen_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAsusZen_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.textBoxAsusZen_PKR.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxAsusZen_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAsusZen_PKR.Location = new System.Drawing.Point(213, 2);
-            this.textBoxAsusZen_PKR.Multiline = true;
-            this.textBoxAsusZen_PKR.Name = "textBoxAsusZen_PKR";
-            this.textBoxAsusZen_PKR.ReadOnly = true;
-            this.textBoxAsusZen_PKR.Size = new System.Drawing.Size(503, 165);
-            this.textBoxAsusZen_PKR.TabIndex = 23;
-            this.textBoxAsusZen_PKR.TabStop = false;
-            this.textBoxAsusZen_PKR.Text = resources.GetString("textBoxAsusZen_PKR.Text");
             // 
             // pictureBoxAsusZen2_PKR
             // 
@@ -303,21 +394,85 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonAsusZenPictureChange_PKR.UseVisualStyleBackColor = true;
             this.buttonAsusZenPictureChange_PKR.Click += new System.EventHandler(this.ButtonAsusZenPictureChange_PKR_Click);
             // 
+            // pictureBoxAsusZen2Star_PKR
+            // 
+            this.pictureBoxAsusZen2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusZen2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusZen2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusZen2Star_PKR.Image")));
+            this.pictureBoxAsusZen2Star_PKR.Location = new System.Drawing.Point(636, 11);
+            this.pictureBoxAsusZen2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusZen2Star_PKR.Name = "pictureBoxAsusZen2Star_PKR";
+            this.pictureBoxAsusZen2Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusZen2Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusZen2Star_PKR.TabIndex = 36;
+            this.pictureBoxAsusZen2Star_PKR.TabStop = false;
+            this.pictureBoxAsusZen2Star_PKR.Visible = false;
+            // 
+            // textBoxAsusZen_PKR
+            // 
+            this.textBoxAsusZen_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAsusZen_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.textBoxAsusZen_PKR.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxAsusZen_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAsusZen_PKR.Location = new System.Drawing.Point(213, 2);
+            this.textBoxAsusZen_PKR.Multiline = true;
+            this.textBoxAsusZen_PKR.Name = "textBoxAsusZen_PKR";
+            this.textBoxAsusZen_PKR.ReadOnly = true;
+            this.textBoxAsusZen_PKR.Size = new System.Drawing.Size(469, 165);
+            this.textBoxAsusZen_PKR.TabIndex = 23;
+            this.textBoxAsusZen_PKR.TabStop = false;
+            this.textBoxAsusZen_PKR.Text = resources.GetString("textBoxAsusZen_PKR.Text");
+            // 
             // panelAsusVivo17_PKR
             // 
             this.panelAsusVivo17_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAsusVivo17_PKR.Controls.Add(this.pictureBoxAsusVivo171Star_PKR);
+            this.panelAsusVivo17_PKR.Controls.Add(this.buttonAsusVivo17Star_PKR);
             this.panelAsusVivo17_PKR.Controls.Add(this.linkLabelAsusVivo17_PKR);
             this.panelAsusVivo17_PKR.Controls.Add(this.pictureBoxAsusVivo171_PKR);
-            this.panelAsusVivo17_PKR.Controls.Add(this.textBoxAsusVivo17_PKR);
             this.panelAsusVivo17_PKR.Controls.Add(this.pictureBoxAsusVivo172_PKR);
             this.panelAsusVivo17_PKR.Controls.Add(this.pictureBoxAsusVivo173_PKR);
             this.panelAsusVivo17_PKR.Controls.Add(this.pictureBoxAsusVivo174_PKR);
             this.panelAsusVivo17_PKR.Controls.Add(this.buttonAsusVivo17ChangePicture_PKR);
+            this.panelAsusVivo17_PKR.Controls.Add(this.pictureBoxAsusVivo172Star_PKR);
+            this.panelAsusVivo17_PKR.Controls.Add(this.textBoxAsusVivo17_PKR);
             this.panelAsusVivo17_PKR.Location = new System.Drawing.Point(8, 400);
             this.panelAsusVivo17_PKR.Name = "panelAsusVivo17_PKR";
-            this.panelAsusVivo17_PKR.Size = new System.Drawing.Size(719, 170);
+            this.panelAsusVivo17_PKR.Size = new System.Drawing.Size(685, 170);
             this.panelAsusVivo17_PKR.TabIndex = 2;
+            // 
+            // pictureBoxAsusVivo171Star_PKR
+            // 
+            this.pictureBoxAsusVivo171Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusVivo171Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusVivo171Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusVivo171Star_PKR.Image")));
+            this.pictureBoxAsusVivo171Star_PKR.Location = new System.Drawing.Point(636, 13);
+            this.pictureBoxAsusVivo171Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusVivo171Star_PKR.Name = "pictureBoxAsusVivo171Star_PKR";
+            this.pictureBoxAsusVivo171Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusVivo171Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusVivo171Star_PKR.TabIndex = 36;
+            this.pictureBoxAsusVivo171Star_PKR.TabStop = false;
+            // 
+            // buttonAsusVivo17Star_PKR
+            // 
+            this.buttonAsusVivo17Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonAsusVivo17Star_PKR.AutoSize = true;
+            this.buttonAsusVivo17Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.buttonAsusVivo17Star_PKR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAsusVivo17Star_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonAsusVivo17Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAsusVivo17Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.buttonAsusVivo17Star_PKR.ImageIndex = 0;
+            this.buttonAsusVivo17Star_PKR.Location = new System.Drawing.Point(555, 117);
+            this.buttonAsusVivo17Star_PKR.Name = "buttonAsusVivo17Star_PKR";
+            this.buttonAsusVivo17Star_PKR.Size = new System.Drawing.Size(106, 38);
+            this.buttonAsusVivo17Star_PKR.TabIndex = 35;
+            this.buttonAsusVivo17Star_PKR.Text = " Избранное";
+            this.buttonAsusVivo17Star_PKR.UseVisualStyleBackColor = false;
+            this.buttonAsusVivo17Star_PKR.Click += new System.EventHandler(this.ButtonAsusVivo17Star_PKR_Click);
             // 
             // linkLabelAsusVivo17_PKR
             // 
@@ -325,7 +480,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.linkLabelAsusVivo17_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.linkLabelAsusVivo17_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabelAsusVivo17_PKR.LinkColor = System.Drawing.Color.DarkRed;
-            this.linkLabelAsusVivo17_PKR.Location = new System.Drawing.Point(582, 130);
+            this.linkLabelAsusVivo17_PKR.Location = new System.Drawing.Point(221, 135);
             this.linkLabelAsusVivo17_PKR.Name = "linkLabelAsusVivo17_PKR";
             this.linkLabelAsusVivo17_PKR.Size = new System.Drawing.Size(99, 20);
             this.linkLabelAsusVivo17_PKR.TabIndex = 30;
@@ -343,22 +498,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxAsusVivo171_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAsusVivo171_PKR.TabIndex = 25;
             this.pictureBoxAsusVivo171_PKR.TabStop = false;
-            // 
-            // textBoxAsusVivo17_PKR
-            // 
-            this.textBoxAsusVivo17_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAsusVivo17_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.textBoxAsusVivo17_PKR.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxAsusVivo17_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAsusVivo17_PKR.Location = new System.Drawing.Point(213, 0);
-            this.textBoxAsusVivo17_PKR.Multiline = true;
-            this.textBoxAsusVivo17_PKR.Name = "textBoxAsusVivo17_PKR";
-            this.textBoxAsusVivo17_PKR.ReadOnly = true;
-            this.textBoxAsusVivo17_PKR.Size = new System.Drawing.Size(503, 165);
-            this.textBoxAsusVivo17_PKR.TabIndex = 24;
-            this.textBoxAsusVivo17_PKR.TabStop = false;
-            this.textBoxAsusVivo17_PKR.Text = resources.GetString("textBoxAsusVivo17_PKR.Text");
             // 
             // pictureBoxAsusVivo172_PKR
             // 
@@ -406,21 +545,99 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonAsusVivo17ChangePicture_PKR.UseVisualStyleBackColor = true;
             this.buttonAsusVivo17ChangePicture_PKR.Click += new System.EventHandler(this.ButtonAsusVivo17ChangePicture_PKR_Click);
             // 
+            // pictureBoxAsusVivo172Star_PKR
+            // 
+            this.pictureBoxAsusVivo172Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusVivo172Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusVivo172Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusVivo172Star_PKR.Image")));
+            this.pictureBoxAsusVivo172Star_PKR.Location = new System.Drawing.Point(636, 13);
+            this.pictureBoxAsusVivo172Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusVivo172Star_PKR.Name = "pictureBoxAsusVivo172Star_PKR";
+            this.pictureBoxAsusVivo172Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusVivo172Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusVivo172Star_PKR.TabIndex = 37;
+            this.pictureBoxAsusVivo172Star_PKR.TabStop = false;
+            this.pictureBoxAsusVivo172Star_PKR.Visible = false;
+            // 
+            // textBoxAsusVivo17_PKR
+            // 
+            this.textBoxAsusVivo17_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAsusVivo17_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.textBoxAsusVivo17_PKR.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxAsusVivo17_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAsusVivo17_PKR.Location = new System.Drawing.Point(213, 0);
+            this.textBoxAsusVivo17_PKR.Multiline = true;
+            this.textBoxAsusVivo17_PKR.Name = "textBoxAsusVivo17_PKR";
+            this.textBoxAsusVivo17_PKR.ReadOnly = true;
+            this.textBoxAsusVivo17_PKR.Size = new System.Drawing.Size(469, 165);
+            this.textBoxAsusVivo17_PKR.TabIndex = 24;
+            this.textBoxAsusVivo17_PKR.TabStop = false;
+            this.textBoxAsusVivo17_PKR.Text = resources.GetString("textBoxAsusVivo17_PKR.Text");
+            // 
             // panelAsusVivo15_PKR
             // 
             this.panelAsusVivo15_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAsusVivo15_PKR.Controls.Add(this.pictureBoxAsusVivo151Star_PKR);
+            this.panelAsusVivo15_PKR.Controls.Add(this.buttonAsusvivo15Star_PKR);
+            this.panelAsusVivo15_PKR.Controls.Add(this.pictureBoxAsusVivo152Star_PKR);
             this.panelAsusVivo15_PKR.Controls.Add(this.linkLabelAsusVivo15_PKR);
             this.panelAsusVivo15_PKR.Controls.Add(this.pictureBoxAsusVivo151_PKR);
-            this.panelAsusVivo15_PKR.Controls.Add(this.textBoxAsusVivo15_PKR);
             this.panelAsusVivo15_PKR.Controls.Add(this.pictureBoxAsusVivo152_PKR);
             this.panelAsusVivo15_PKR.Controls.Add(this.pictureBoxAsusVivo153_PKR);
             this.panelAsusVivo15_PKR.Controls.Add(this.pictureBoxAsusVivo154_PKR);
             this.panelAsusVivo15_PKR.Controls.Add(this.buttonAsusVivo15PictureChange_PKR);
+            this.panelAsusVivo15_PKR.Controls.Add(this.textBoxAsusVivo15_PKR);
             this.panelAsusVivo15_PKR.Location = new System.Drawing.Point(8, 595);
             this.panelAsusVivo15_PKR.Name = "panelAsusVivo15_PKR";
-            this.panelAsusVivo15_PKR.Size = new System.Drawing.Size(719, 170);
+            this.panelAsusVivo15_PKR.Size = new System.Drawing.Size(685, 170);
             this.panelAsusVivo15_PKR.TabIndex = 3;
+            // 
+            // pictureBoxAsusVivo151Star_PKR
+            // 
+            this.pictureBoxAsusVivo151Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusVivo151Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusVivo151Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusVivo151Star_PKR.Image")));
+            this.pictureBoxAsusVivo151Star_PKR.Location = new System.Drawing.Point(636, 16);
+            this.pictureBoxAsusVivo151Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusVivo151Star_PKR.Name = "pictureBoxAsusVivo151Star_PKR";
+            this.pictureBoxAsusVivo151Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusVivo151Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusVivo151Star_PKR.TabIndex = 39;
+            this.pictureBoxAsusVivo151Star_PKR.TabStop = false;
+            // 
+            // buttonAsusvivo15Star_PKR
+            // 
+            this.buttonAsusvivo15Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonAsusvivo15Star_PKR.AutoSize = true;
+            this.buttonAsusvivo15Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.buttonAsusvivo15Star_PKR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAsusvivo15Star_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonAsusvivo15Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAsusvivo15Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.buttonAsusvivo15Star_PKR.ImageIndex = 0;
+            this.buttonAsusvivo15Star_PKR.Location = new System.Drawing.Point(555, 120);
+            this.buttonAsusvivo15Star_PKR.Name = "buttonAsusvivo15Star_PKR";
+            this.buttonAsusvivo15Star_PKR.Size = new System.Drawing.Size(106, 38);
+            this.buttonAsusvivo15Star_PKR.TabIndex = 38;
+            this.buttonAsusvivo15Star_PKR.Text = " Избранное";
+            this.buttonAsusvivo15Star_PKR.UseVisualStyleBackColor = false;
+            this.buttonAsusvivo15Star_PKR.Click += new System.EventHandler(this.ButtonAsusvivo15Star_PKR_Click);
+            // 
+            // pictureBoxAsusVivo152Star_PKR
+            // 
+            this.pictureBoxAsusVivo152Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusVivo152Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusVivo152Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusVivo152Star_PKR.Image")));
+            this.pictureBoxAsusVivo152Star_PKR.Location = new System.Drawing.Point(636, 16);
+            this.pictureBoxAsusVivo152Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusVivo152Star_PKR.Name = "pictureBoxAsusVivo152Star_PKR";
+            this.pictureBoxAsusVivo152Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusVivo152Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusVivo152Star_PKR.TabIndex = 37;
+            this.pictureBoxAsusVivo152Star_PKR.TabStop = false;
+            this.pictureBoxAsusVivo152Star_PKR.Visible = false;
             // 
             // linkLabelAsusVivo15_PKR
             // 
@@ -428,7 +645,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.linkLabelAsusVivo15_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.linkLabelAsusVivo15_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabelAsusVivo15_PKR.LinkColor = System.Drawing.Color.DarkRed;
-            this.linkLabelAsusVivo15_PKR.Location = new System.Drawing.Point(582, 135);
+            this.linkLabelAsusVivo15_PKR.Location = new System.Drawing.Point(221, 138);
             this.linkLabelAsusVivo15_PKR.Name = "linkLabelAsusVivo15_PKR";
             this.linkLabelAsusVivo15_PKR.Size = new System.Drawing.Size(99, 20);
             this.linkLabelAsusVivo15_PKR.TabIndex = 31;
@@ -446,22 +663,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxAsusVivo151_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAsusVivo151_PKR.TabIndex = 26;
             this.pictureBoxAsusVivo151_PKR.TabStop = false;
-            // 
-            // textBoxAsusVivo15_PKR
-            // 
-            this.textBoxAsusVivo15_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAsusVivo15_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.textBoxAsusVivo15_PKR.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxAsusVivo15_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAsusVivo15_PKR.Location = new System.Drawing.Point(213, 3);
-            this.textBoxAsusVivo15_PKR.Multiline = true;
-            this.textBoxAsusVivo15_PKR.Name = "textBoxAsusVivo15_PKR";
-            this.textBoxAsusVivo15_PKR.ReadOnly = true;
-            this.textBoxAsusVivo15_PKR.Size = new System.Drawing.Size(503, 165);
-            this.textBoxAsusVivo15_PKR.TabIndex = 25;
-            this.textBoxAsusVivo15_PKR.TabStop = false;
-            this.textBoxAsusVivo15_PKR.Text = resources.GetString("textBoxAsusVivo15_PKR.Text");
             // 
             // pictureBoxAsusVivo152_PKR
             // 
@@ -509,21 +710,85 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonAsusVivo15PictureChange_PKR.UseVisualStyleBackColor = true;
             this.buttonAsusVivo15PictureChange_PKR.Click += new System.EventHandler(this.ButtonAsusVivo15PictureChange_PKR_Click);
             // 
+            // textBoxAsusVivo15_PKR
+            // 
+            this.textBoxAsusVivo15_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAsusVivo15_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.textBoxAsusVivo15_PKR.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxAsusVivo15_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAsusVivo15_PKR.Location = new System.Drawing.Point(213, 3);
+            this.textBoxAsusVivo15_PKR.Multiline = true;
+            this.textBoxAsusVivo15_PKR.Name = "textBoxAsusVivo15_PKR";
+            this.textBoxAsusVivo15_PKR.ReadOnly = true;
+            this.textBoxAsusVivo15_PKR.Size = new System.Drawing.Size(469, 165);
+            this.textBoxAsusVivo15_PKR.TabIndex = 25;
+            this.textBoxAsusVivo15_PKR.TabStop = false;
+            this.textBoxAsusVivo15_PKR.Text = resources.GetString("textBoxAsusVivo15_PKR.Text");
+            // 
             // panelAsusVivo16_PKR
             // 
             this.panelAsusVivo16_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAsusVivo16_PKR.Controls.Add(this.pictureBoxAsusVivo161Star_PKR);
+            this.panelAsusVivo16_PKR.Controls.Add(this.buttonAsusVivo16Star_PKR);
+            this.panelAsusVivo16_PKR.Controls.Add(this.pictureBoxAsusVivo162Star_PKR);
             this.panelAsusVivo16_PKR.Controls.Add(this.linkLabelAsusVivo16_PKR);
             this.panelAsusVivo16_PKR.Controls.Add(this.pictureBoxAsusVivo161_PKR);
-            this.panelAsusVivo16_PKR.Controls.Add(this.textBoxAsusVivo16_PKR);
             this.panelAsusVivo16_PKR.Controls.Add(this.pictureBoxAsusVivo162_PKR);
             this.panelAsusVivo16_PKR.Controls.Add(this.pictureBoxAsusVivo163_PKR);
             this.panelAsusVivo16_PKR.Controls.Add(this.pictureBoxAsusVivo164_PKR);
             this.panelAsusVivo16_PKR.Controls.Add(this.buttonAsusVivo16PictureChange_PKR);
+            this.panelAsusVivo16_PKR.Controls.Add(this.textBoxAsusVivo16_PKR);
             this.panelAsusVivo16_PKR.Location = new System.Drawing.Point(8, 791);
             this.panelAsusVivo16_PKR.Name = "panelAsusVivo16_PKR";
-            this.panelAsusVivo16_PKR.Size = new System.Drawing.Size(719, 170);
+            this.panelAsusVivo16_PKR.Size = new System.Drawing.Size(685, 170);
             this.panelAsusVivo16_PKR.TabIndex = 4;
+            // 
+            // pictureBoxAsusVivo161Star_PKR
+            // 
+            this.pictureBoxAsusVivo161Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusVivo161Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusVivo161Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusVivo161Star_PKR.Image")));
+            this.pictureBoxAsusVivo161Star_PKR.Location = new System.Drawing.Point(636, 16);
+            this.pictureBoxAsusVivo161Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusVivo161Star_PKR.Name = "pictureBoxAsusVivo161Star_PKR";
+            this.pictureBoxAsusVivo161Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusVivo161Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusVivo161Star_PKR.TabIndex = 40;
+            this.pictureBoxAsusVivo161Star_PKR.TabStop = false;
+            // 
+            // buttonAsusVivo16Star_PKR
+            // 
+            this.buttonAsusVivo16Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonAsusVivo16Star_PKR.AutoSize = true;
+            this.buttonAsusVivo16Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.buttonAsusVivo16Star_PKR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAsusVivo16Star_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonAsusVivo16Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAsusVivo16Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.buttonAsusVivo16Star_PKR.ImageIndex = 0;
+            this.buttonAsusVivo16Star_PKR.Location = new System.Drawing.Point(555, 116);
+            this.buttonAsusVivo16Star_PKR.Name = "buttonAsusVivo16Star_PKR";
+            this.buttonAsusVivo16Star_PKR.Size = new System.Drawing.Size(106, 38);
+            this.buttonAsusVivo16Star_PKR.TabIndex = 39;
+            this.buttonAsusVivo16Star_PKR.Text = " Избранное";
+            this.buttonAsusVivo16Star_PKR.UseVisualStyleBackColor = false;
+            this.buttonAsusVivo16Star_PKR.Click += new System.EventHandler(this.ButtonAsusVivo16Star_PKR_Click);
+            // 
+            // pictureBoxAsusVivo162Star_PKR
+            // 
+            this.pictureBoxAsusVivo162Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxAsusVivo162Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxAsusVivo162Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAsusVivo162Star_PKR.Image")));
+            this.pictureBoxAsusVivo162Star_PKR.Location = new System.Drawing.Point(636, 16);
+            this.pictureBoxAsusVivo162Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxAsusVivo162Star_PKR.Name = "pictureBoxAsusVivo162Star_PKR";
+            this.pictureBoxAsusVivo162Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxAsusVivo162Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAsusVivo162Star_PKR.TabIndex = 37;
+            this.pictureBoxAsusVivo162Star_PKR.TabStop = false;
+            this.pictureBoxAsusVivo162Star_PKR.Visible = false;
             // 
             // linkLabelAsusVivo16_PKR
             // 
@@ -531,7 +796,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.linkLabelAsusVivo16_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.linkLabelAsusVivo16_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabelAsusVivo16_PKR.LinkColor = System.Drawing.Color.DarkRed;
-            this.linkLabelAsusVivo16_PKR.Location = new System.Drawing.Point(582, 135);
+            this.linkLabelAsusVivo16_PKR.Location = new System.Drawing.Point(221, 134);
             this.linkLabelAsusVivo16_PKR.Name = "linkLabelAsusVivo16_PKR";
             this.linkLabelAsusVivo16_PKR.Size = new System.Drawing.Size(99, 20);
             this.linkLabelAsusVivo16_PKR.TabIndex = 32;
@@ -549,22 +814,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxAsusVivo161_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAsusVivo161_PKR.TabIndex = 27;
             this.pictureBoxAsusVivo161_PKR.TabStop = false;
-            // 
-            // textBoxAsusVivo16_PKR
-            // 
-            this.textBoxAsusVivo16_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxAsusVivo16_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.textBoxAsusVivo16_PKR.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxAsusVivo16_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxAsusVivo16_PKR.Location = new System.Drawing.Point(213, 3);
-            this.textBoxAsusVivo16_PKR.Multiline = true;
-            this.textBoxAsusVivo16_PKR.Name = "textBoxAsusVivo16_PKR";
-            this.textBoxAsusVivo16_PKR.ReadOnly = true;
-            this.textBoxAsusVivo16_PKR.Size = new System.Drawing.Size(503, 165);
-            this.textBoxAsusVivo16_PKR.TabIndex = 26;
-            this.textBoxAsusVivo16_PKR.TabStop = false;
-            this.textBoxAsusVivo16_PKR.Text = resources.GetString("textBoxAsusVivo16_PKR.Text");
             // 
             // pictureBoxAsusVivo162_PKR
             // 
@@ -612,51 +861,79 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonAsusVivo16PictureChange_PKR.UseVisualStyleBackColor = true;
             this.buttonAsusVivo16PictureChange_PKR.Click += new System.EventHandler(this.ButtonAsusVivo16PictureChange_PKR_Click);
             // 
+            // textBoxAsusVivo16_PKR
+            // 
+            this.textBoxAsusVivo16_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxAsusVivo16_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.textBoxAsusVivo16_PKR.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxAsusVivo16_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAsusVivo16_PKR.Location = new System.Drawing.Point(213, 3);
+            this.textBoxAsusVivo16_PKR.Multiline = true;
+            this.textBoxAsusVivo16_PKR.Name = "textBoxAsusVivo16_PKR";
+            this.textBoxAsusVivo16_PKR.ReadOnly = true;
+            this.textBoxAsusVivo16_PKR.Size = new System.Drawing.Size(469, 165);
+            this.textBoxAsusVivo16_PKR.TabIndex = 26;
+            this.textBoxAsusVivo16_PKR.TabStop = false;
+            this.textBoxAsusVivo16_PKR.Text = resources.GetString("textBoxAsusVivo16_PKR.Text");
+            // 
             // FormASUS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(96)))), ((int)(((byte)(110)))));
-            this.ClientSize = new System.Drawing.Size(803, 667);
+            this.ClientSize = new System.Drawing.Size(792, 667);
             this.Controls.Add(this.panelAsusVivo16_PKR);
             this.Controls.Add(this.panelAsusVivo15_PKR);
             this.Controls.Add(this.panelAsusVivo17_PKR);
             this.Controls.Add(this.panelAsusZen_PKR);
             this.Controls.Add(this.panelAsusRog_PKR);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(800, 1000);
-            this.MinimumSize = new System.Drawing.Size(700, 650);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(810, 900);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(790, 714);
             this.Name = "FormASUS";
             this.Padding = new System.Windows.Forms.Padding(5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ASUS";
             this.panelAsusRog_PKR.ResumeLayout(false);
             this.panelAsusRog_PKR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog1Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog1_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog2_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog3_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog4_PKR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusRog2Star_PKR)).EndInit();
             this.panelAsusZen_PKR.ResumeLayout(false);
             this.panelAsusZen_PKR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen1Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen1_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen2_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen3_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen4_PKR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusZen2Star_PKR)).EndInit();
             this.panelAsusVivo17_PKR.ResumeLayout(false);
             this.panelAsusVivo17_PKR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo171Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo171_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo172_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo173_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo174_PKR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo172Star_PKR)).EndInit();
             this.panelAsusVivo15_PKR.ResumeLayout(false);
             this.panelAsusVivo15_PKR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo151Star_PKR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo152Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo151_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo152_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo153_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo154_PKR)).EndInit();
             this.panelAsusVivo16_PKR.ResumeLayout(false);
             this.panelAsusVivo16_PKR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo161Star_PKR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo162Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo161_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo162_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAsusVivo163_PKR)).EndInit();
@@ -707,5 +984,20 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.LinkLabel linkLabelAsusVivo17_PKR;
         private System.Windows.Forms.LinkLabel linkLabelAsusVivo15_PKR;
         private System.Windows.Forms.LinkLabel linkLabelAsusVivo16_PKR;
+        private System.Windows.Forms.Button buttonAsusRogStar_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusRog1Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusRog2Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusZen1Star_PKR;
+        private System.Windows.Forms.Button buttonAsusZenStar_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusZen2Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusVivo171Star_PKR;
+        private System.Windows.Forms.Button buttonAsusVivo17Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusVivo172Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusVivo152Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusVivo162Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusVivo151Star_PKR;
+        private System.Windows.Forms.Button buttonAsusvivo15Star_PKR;
+        private System.Windows.Forms.PictureBox pictureBoxAsusVivo161Star_PKR;
+        private System.Windows.Forms.Button buttonAsusVivo16Star_PKR;
     }
 }

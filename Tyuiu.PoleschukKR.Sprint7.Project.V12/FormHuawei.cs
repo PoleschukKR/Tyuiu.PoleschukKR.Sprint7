@@ -13,6 +13,10 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 {
     public partial class FormHuawei : Form
     {
+        // Получаем текущий экземпляр формы MainForm
+        FormMain mainForm = (FormMain)Application.OpenForms["FormMain"];
+        
+       
         public FormHuawei()
         {
             InitializeComponent();
@@ -33,7 +37,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             }
         }
 
-        private void textBoxHuwMB15_PKR_Enter(object sender, EventArgs e)
+        private void TextBoxHuwMB15_PKR_Enter(object sender, EventArgs e)
         {
             (sender as TextBox).SelectionStart = 0;
         }
@@ -105,12 +109,124 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
         private void LinkLabelHuwMBX_PKR_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(new ProcessStartInfo { FileName = "https://youtu.be/krGrxjmJRj8?si=s-wSipuQn-67X-59", UseShellExecute = true });    
+            System.Diagnostics.Process.Start(new ProcessStartInfo { FileName = "https://youtu.be/krGrxjmJRj8?si=s-wSipuQn-67X-59", UseShellExecute = true });
         }
 
         private void LinkLabelHuwMBE_PKR_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(new ProcessStartInfo { FileName = "https://youtu.be/GESfRXARQBg?si=DB1cSryUZBsM5NPK", UseShellExecute = true });
+        }
+
+
+        private void ButtonHuwMBD15Star_PKR_Click(object sender, EventArgs e)
+        {
+            if (pictureBoxHuwMBD151Star_PKR.Visible == true && pictureBoxHuwMBD152Star_PKR.Visible == false)
+            {
+                pictureBoxHuwMBD151Star_PKR.Visible = false;
+                pictureBoxHuwMBD152Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMBD151Star_PKR.Visible = true;
+                pictureBoxHuwMBD152Star_PKR.Visible = false;
+            }
+            
+
+            // Получаем доступ к listBox в  форме Main
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textMBD15 = ("Huawei MateBook D15 Intel Core i5-1155G7 Цена: 63000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMBD15))
+            {
+                listBox.Items.Remove(textMBD15);
+            }
+            else
+            {
+                listBox.Items.Add(textMBD15);
+            }
+
+        }
+         
+
+
+        private void ButtonMB14Star_PKR_Click(object sender, EventArgs e)
+        {
+            if (pictureBoxHuwMB141Star_PKR.Visible == true && pictureBoxHuwMB142Star_PKR.Visible == false)
+            {
+                pictureBoxHuwMB141Star_PKR.Visible = false;
+                pictureBoxHuwMB142Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMB141Star_PKR.Visible = true;
+                pictureBoxHuwMB142Star_PKR.Visible = false;
+            }
+
+            // Получаем доступ к listBox в  форме Main
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textMB14 = ("Huawei MateBook 14 Intel Core i5-1135G7 Цена: 63000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMB14))
+            {
+                listBox.Items.Remove(textMB14);
+            }
+            else
+            {
+                listBox.Items.Add(textMB14);
+            }
+        }
+
+
+        private void ButtonHuwMBXStar_PKR_Click(object sender, EventArgs e)
+        {
+            if (pictureBoxHuwMBX1Star_PKR.Visible == true && pictureBoxHuwMBX2Star_PKR.Visible == false)
+            {
+                pictureBoxHuwMBX1Star_PKR.Visible = false;
+                pictureBoxHuwMBX2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMBX1Star_PKR.Visible = true;
+                pictureBoxHuwMBX2Star_PKR.Visible = false;
+            }
+            // Получаем доступ к listBox в  форме Main
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textMBX = ("Huawei MateBook X Pro Intel Core i7-1165G7 Цена: 100000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMBX))
+            {
+                listBox.Items.Remove(textMBX);
+            }
+            else
+            {
+                listBox.Items.Add(textMBX);
+            }
+        }
+
+        private void ButtonHuwMBEStar_PKR_Click(object sender, EventArgs e)
+        {
+            if (pictureBoxHuwMBE1Star_PKR.Visible == true && pictureBoxHuwMBE2Star_PKR.Visible == false)
+            {
+                pictureBoxHuwMBE1Star_PKR.Visible = false;
+                pictureBoxHuwMBE2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMBE1Star_PKR.Visible = true;
+                pictureBoxHuwMBE2Star_PKR.Visible = false;
+            }
+            // Получаем доступ к listBox в  форме Main
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textMBE = ("Huawei MateBook E Go Snapdragon® 8cx Gen 3 Цена: 70000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMBE))
+            {
+                listBox.Items.Remove(textMBE);
+            }
+            else
+            {
+                listBox.Items.Add(textMBE);
+            }
         }
     }
 }

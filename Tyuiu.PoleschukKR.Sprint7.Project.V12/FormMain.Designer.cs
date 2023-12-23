@@ -49,6 +49,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelLogo_PKR = new System.Windows.Forms.Panel();
             this.panelMainBase_PKR = new System.Windows.Forms.Panel();
             this.panelMainMenu_PKR = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.listBoxStar_PKR = new System.Windows.Forms.ListBox();
             this.buttonEVMBase_PKR = new System.Windows.Forms.Button();
             this.textBoxMenuGreeting_PKR = new System.Windows.Forms.TextBox();
             this.dataGridViewEVMBase_PKR = new System.Windows.Forms.DataGridView();
@@ -58,6 +60,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelSearchMenu_PKR.SuspendLayout();
             this.panelMainBase_PKR.SuspendLayout();
             this.panelMainMenu_PKR.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEVMBase_PKR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -276,6 +279,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // panelMainMenu_PKR
             // 
             this.panelMainMenu_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panelMainMenu_PKR.Controls.Add(this.panel1);
             this.panelMainMenu_PKR.Controls.Add(this.buttonEVMBase_PKR);
             this.panelMainMenu_PKR.Controls.Add(this.textBoxMenuGreeting_PKR);
             this.panelMainMenu_PKR.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -283,6 +287,24 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMainMenu_PKR.Name = "panelMainMenu_PKR";
             this.panelMainMenu_PKR.Size = new System.Drawing.Size(732, 553);
             this.panelMainMenu_PKR.TabIndex = 5;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.listBoxStar_PKR);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(729, 484);
+            this.panel1.TabIndex = 1;
+            // 
+            // listBoxStar_PKR
+            // 
+            this.listBoxStar_PKR.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.listBoxStar_PKR.FormattingEnabled = true;
+            this.listBoxStar_PKR.ItemHeight = 31;
+            this.listBoxStar_PKR.Location = new System.Drawing.Point(16, 32);
+            this.listBoxStar_PKR.Name = "listBoxStar_PKR";
+            this.listBoxStar_PKR.Size = new System.Drawing.Size(696, 376);
+            this.listBoxStar_PKR.TabIndex = 0;
             // 
             // buttonEVMBase_PKR
             // 
@@ -409,6 +431,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMainBase_PKR.ResumeLayout(false);
             this.panelMainMenu_PKR.ResumeLayout(false);
             this.panelMainMenu_PKR.PerformLayout();
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEVMBase_PKR)).EndInit();
             this.ResumeLayout(false);
 
@@ -435,6 +458,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.Panel panelMainMenu_PKR;
         private System.Windows.Forms.TextBox textBoxMenuGreeting_PKR;
         private System.Windows.Forms.Button buttonReturnMainMenu_PKR;
+        private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.ListBox listBoxStar_PKR;
     }
 }
 
