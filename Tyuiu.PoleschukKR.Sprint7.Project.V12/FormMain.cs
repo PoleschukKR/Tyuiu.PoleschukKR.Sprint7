@@ -67,8 +67,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             formGuidForUser.ShowDialog();
         }
 
-        
-        
+
+
 
         private void ButtonAsusMenu_PKR_Click(object sender, EventArgs e)
         {
@@ -100,7 +100,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
         private void ButtonEVMBase_PKR_Click(object sender, EventArgs e)
         {
-           
+            textBoxSearch_PKR.Visible = true;
+            buttonSearchDG_PKR.Visible = true;
 
             panelMainBase_PKR.Visible = true;
             panelMainMenu_PKR.Visible = false;
@@ -112,7 +113,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                 int rows = DataMatrix.GetLength(0);
                 int columns = DataMatrix.GetLength(1);
 
-                dataGridViewEVMBase_PKR.RowCount = rows ;
+                dataGridViewEVMBase_PKR.RowCount = rows;
                 dataGridViewEVMBase_PKR.ColumnCount = columns;
 
                 dataGridViewEVMBase_PKR.Columns[0].HeaderText = "Модель";
@@ -149,6 +150,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private void ButtonReturnMainMenu_PKR_Click(object sender, EventArgs e)
         {
             panelMainMenu_PKR.Visible = true;
+            textBoxSearch_PKR.Visible = false;
+            buttonSearchDG_PKR.Visible = false;
         }
 
         private void ButtonOpenFileStar_PKR_Click(object sender, EventArgs e)
@@ -182,7 +185,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                 saveFileDialogStar_PKR.FileName = "Сохраненная корзина.csv";
                 saveFileDialogStar_PKR.InitialDirectory = Directory.GetCurrentDirectory();
                 saveFileDialogStar_PKR.ShowDialog();
-                
+
 
                 if (saveFileDialogStar_PKR.FileName != "")
                 {
@@ -194,7 +197,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                         }
                     }
                 }
-                
+
             }
             catch
             {
@@ -222,6 +225,47 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private void ButtonClearListStar_PKR_Click(object sender, EventArgs e)
         {
             listBoxStar_PKR.Items.Clear();
+        }
+
+        private void ButtonSearchDG_PKR_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dataGridViewEVMBase_PKR.RowCount; i++)
+            {
+                dataGridViewEVMBase_PKR.Rows[i].Selected = false;
+                for (int j = 0; j < dataGridViewEVMBase_PKR.ColumnCount; j++)
+                    if (dataGridViewEVMBase_PKR.Rows[i].Cells[j].Value != null)
+                        if (dataGridViewEVMBase_PKR.Rows[i].Cells[j].Value.ToString().Contains(textBoxSearch_PKR.Text))
+                        {
+                            dataGridViewEVMBase_PKR.Rows[i].Selected = true;
+                            break;
+                        }
+            }
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            textBoxSearch_PKR.Text = "Поиск по таблицe";
+            textBoxSearch_PKR.ForeColor = Color.Black;
+
+            textBoxSearch_PKR.GotFocus += TextBoxSearch_GotFocus;
+            textBoxSearch_PKR.LostFocus += TextBoxSearch_LostFocus;
+        }
+        private void TextBoxSearch_GotFocus(object sender, EventArgs e)
+        {
+            if (textBoxSearch_PKR.Text == "Поиск по таблицe")
+            {
+                textBoxSearch_PKR.Text = "";
+                textBoxSearch_PKR.ForeColor = Color.Black;
+            }
+        }
+
+        private void TextBoxSearch_LostFocus(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBoxSearch_PKR.Text))
+            {
+                textBoxSearch_PKR.Text = "Поиск по таблицe";
+                textBoxSearch_PKR.ForeColor = Color.Gray;
+            }
         }
     }
 }

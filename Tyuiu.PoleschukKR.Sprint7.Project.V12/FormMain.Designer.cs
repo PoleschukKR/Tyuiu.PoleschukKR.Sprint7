@@ -51,6 +51,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMainBase_PKR = new System.Windows.Forms.Panel();
             this.panelMainMenu_PKR = new System.Windows.Forms.Panel();
             this.panelStar_PKR = new System.Windows.Forms.Panel();
+            this.textBoxNotes2_PKR = new System.Windows.Forms.TextBox();
             this.buttonClearListStar_PKR = new System.Windows.Forms.Button();
             this.textBoxNotes_PKR = new System.Windows.Forms.TextBox();
             this.buttonReturnMenuFromStar_PKR = new System.Windows.Forms.Button();
@@ -62,16 +63,18 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.dataGridViewEVMBase_PKR = new System.Windows.Forms.DataGridView();
             this.buttonReturnMainMenu_PKR = new System.Windows.Forms.Button();
             this.panelTitle_PKR = new System.Windows.Forms.Panel();
+            this.buttonSearchDG_PKR = new System.Windows.Forms.Button();
+            this.textBoxSearch_PKR = new System.Windows.Forms.TextBox();
             this.openFileDialogStar_PKR = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialogStar_PKR = new System.Windows.Forms.SaveFileDialog();
             this.toolTipButton_PKR = new System.Windows.Forms.ToolTip(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelMenu_PKR.SuspendLayout();
             this.panelSearchMenu_PKR.SuspendLayout();
             this.panelMainBase_PKR.SuspendLayout();
             this.panelMainMenu_PKR.SuspendLayout();
             this.panelStar_PKR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEVMBase_PKR)).BeginInit();
+            this.panelTitle_PKR.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu_PKR
@@ -301,7 +304,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // 
             // panelStar_PKR
             // 
-            this.panelStar_PKR.Controls.Add(this.textBox1);
+            this.panelStar_PKR.Controls.Add(this.textBoxNotes2_PKR);
             this.panelStar_PKR.Controls.Add(this.buttonClearListStar_PKR);
             this.panelStar_PKR.Controls.Add(this.textBoxNotes_PKR);
             this.panelStar_PKR.Controls.Add(this.buttonReturnMenuFromStar_PKR);
@@ -314,6 +317,19 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelStar_PKR.Size = new System.Drawing.Size(732, 550);
             this.panelStar_PKR.TabIndex = 1;
             this.panelStar_PKR.Visible = false;
+            // 
+            // textBoxNotes2_PKR
+            // 
+            this.textBoxNotes2_PKR.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBoxNotes2_PKR.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBoxNotes2_PKR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxNotes2_PKR.Location = new System.Drawing.Point(541, 0);
+            this.textBoxNotes2_PKR.Multiline = true;
+            this.textBoxNotes2_PKR.Name = "textBoxNotes2_PKR";
+            this.textBoxNotes2_PKR.ReadOnly = true;
+            this.textBoxNotes2_PKR.Size = new System.Drawing.Size(191, 30);
+            this.textBoxNotes2_PKR.TabIndex = 6;
+            this.textBoxNotes2_PKR.Text = "Поле для заметок:";
             // 
             // buttonClearListStar_PKR
             // 
@@ -450,8 +466,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.dataGridViewEVMBase_PKR.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.NullValue = null;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
             this.dataGridViewEVMBase_PKR.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewEVMBase_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -460,35 +474,33 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewEVMBase_PKR.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewEVMBase_PKR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.MenuBar;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.MenuBar;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewEVMBase_PKR.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewEVMBase_PKR.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewEVMBase_PKR.Name = "dataGridViewEVMBase_PKR";
             this.dataGridViewEVMBase_PKR.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.ScrollBar;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.MenuBar;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.MenuText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewEVMBase_PKR.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewEVMBase_PKR.RowHeadersVisible = false;
             this.dataGridViewEVMBase_PKR.RowHeadersWidth = 51;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.Desktop;
             this.dataGridViewEVMBase_PKR.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewEVMBase_PKR.RowTemplate.Height = 24;
             this.dataGridViewEVMBase_PKR.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -513,11 +525,36 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // panelTitle_PKR
             // 
             this.panelTitle_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.panelTitle_PKR.Controls.Add(this.buttonSearchDG_PKR);
+            this.panelTitle_PKR.Controls.Add(this.textBoxSearch_PKR);
             this.panelTitle_PKR.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitle_PKR.Location = new System.Drawing.Point(250, 0);
             this.panelTitle_PKR.Name = "panelTitle_PKR";
             this.panelTitle_PKR.Size = new System.Drawing.Size(732, 100);
             this.panelTitle_PKR.TabIndex = 1;
+            // 
+            // buttonSearchDG_PKR
+            // 
+            this.buttonSearchDG_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.buttonSearchDG_PKR.FlatAppearance.BorderSize = 0;
+            this.buttonSearchDG_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSearchDG_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonSearchDG_PKR.Image")));
+            this.buttonSearchDG_PKR.Location = new System.Drawing.Point(487, 29);
+            this.buttonSearchDG_PKR.Name = "buttonSearchDG_PKR";
+            this.buttonSearchDG_PKR.Size = new System.Drawing.Size(55, 55);
+            this.buttonSearchDG_PKR.TabIndex = 1;
+            this.buttonSearchDG_PKR.UseVisualStyleBackColor = false;
+            this.buttonSearchDG_PKR.Visible = false;
+            this.buttonSearchDG_PKR.Click += new System.EventHandler(this.ButtonSearchDG_PKR_Click);
+            // 
+            // textBoxSearch_PKR
+            // 
+            this.textBoxSearch_PKR.Location = new System.Drawing.Point(3, 38);
+            this.textBoxSearch_PKR.Multiline = true;
+            this.textBoxSearch_PKR.Name = "textBoxSearch_PKR";
+            this.textBoxSearch_PKR.Size = new System.Drawing.Size(539, 46);
+            this.textBoxSearch_PKR.TabIndex = 0;
+            this.textBoxSearch_PKR.Visible = false;
             // 
             // openFileDialogStar_PKR
             // 
@@ -530,19 +567,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.toolTipButton_PKR.Tag = "";
             this.toolTipButton_PKR.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTipButton_PKR.ToolTipTitle = "Подсказка";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(541, 0);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(191, 30);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "Поле для заметок:";
             // 
             // FormMain
             // 
@@ -560,6 +584,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ItCompare";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.panelMenu_PKR.ResumeLayout(false);
             this.panelSearchMenu_PKR.ResumeLayout(false);
             this.panelMainBase_PKR.ResumeLayout(false);
@@ -568,6 +593,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelStar_PKR.ResumeLayout(false);
             this.panelStar_PKR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEVMBase_PKR)).EndInit();
+            this.panelTitle_PKR.ResumeLayout(false);
+            this.panelTitle_PKR.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -603,7 +630,9 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.TextBox textBoxNotes_PKR;
         private System.Windows.Forms.Button buttonClearListStar_PKR;
         private System.Windows.Forms.ToolTip toolTipButton_PKR;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxNotes2_PKR;
+        private System.Windows.Forms.TextBox textBoxSearch_PKR;
+        private System.Windows.Forms.Button buttonSearchDG_PKR;
     }
 }
 

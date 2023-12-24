@@ -106,7 +106,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelHuwMB15_PKR.Controls.Add(this.textBoxHuwMB15_PKR);
             this.panelHuwMB15_PKR.Location = new System.Drawing.Point(12, 12);
             this.panelHuwMB15_PKR.Name = "panelHuwMB15_PKR";
-            this.panelHuwMB15_PKR.Size = new System.Drawing.Size(699, 170);
+            this.panelHuwMB15_PKR.Size = new System.Drawing.Size(678, 170);
             this.panelHuwMB15_PKR.TabIndex = 0;
             // 
             // pictureBoxHuwMBD151Star_PKR
@@ -114,7 +114,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMBD151Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMBD151Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMBD151Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMBD151Star_PKR.Image")));
-            this.pictureBoxHuwMBD151Star_PKR.Location = new System.Drawing.Point(639, 16);
+            this.pictureBoxHuwMBD151Star_PKR.Location = new System.Drawing.Point(629, 16);
             this.pictureBoxHuwMBD151Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMBD151Star_PKR.Name = "pictureBoxHuwMBD151Star_PKR";
             this.pictureBoxHuwMBD151Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -132,7 +132,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonHuwMBD15Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHuwMBD15Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonHuwMBD15Star_PKR.ImageIndex = 0;
-            this.buttonHuwMBD15Star_PKR.Location = new System.Drawing.Point(558, 114);
+            this.buttonHuwMBD15Star_PKR.Location = new System.Drawing.Point(548, 114);
             this.buttonHuwMBD15Star_PKR.Name = "buttonHuwMBD15Star_PKR";
             this.buttonHuwMBD15Star_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonHuwMBD15Star_PKR.TabIndex = 32;
@@ -192,7 +192,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMBD152Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMBD152Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMBD152Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMBD152Star_PKR.Image")));
-            this.pictureBoxHuwMBD152Star_PKR.Location = new System.Drawing.Point(639, 16);
+            this.pictureBoxHuwMBD152Star_PKR.Location = new System.Drawing.Point(629, 16);
             this.pictureBoxHuwMBD152Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMBD152Star_PKR.Name = "pictureBoxHuwMBD152Star_PKR";
             this.pictureBoxHuwMBD152Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -212,7 +212,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxHuwMB15_PKR.Multiline = true;
             this.textBoxHuwMB15_PKR.Name = "textBoxHuwMB15_PKR";
             this.textBoxHuwMB15_PKR.ReadOnly = true;
-            this.textBoxHuwMB15_PKR.Size = new System.Drawing.Size(475, 157);
+            this.textBoxHuwMB15_PKR.Size = new System.Drawing.Size(454, 157);
             this.textBoxHuwMB15_PKR.TabIndex = 0;
             this.textBoxHuwMB15_PKR.TabStop = false;
             this.textBoxHuwMB15_PKR.Text = resources.GetString("textBoxHuwMB15_PKR.Text");
@@ -232,7 +232,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelHuwMB14_PKR.Controls.Add(this.textBoxHuwMB14_PKR);
             this.panelHuwMB14_PKR.Location = new System.Drawing.Point(12, 214);
             this.panelHuwMB14_PKR.Name = "panelHuwMB14_PKR";
-            this.panelHuwMB14_PKR.Size = new System.Drawing.Size(699, 170);
+            this.panelHuwMB14_PKR.Size = new System.Drawing.Size(678, 170);
             this.panelHuwMB14_PKR.TabIndex = 1;
             // 
             // pictureBoxHuwMB141Star_PKR
@@ -240,7 +240,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMB141Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMB141Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMB141Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMB141Star_PKR.Image")));
-            this.pictureBoxHuwMB141Star_PKR.Location = new System.Drawing.Point(639, 17);
+            this.pictureBoxHuwMB141Star_PKR.Location = new System.Drawing.Point(629, 17);
             this.pictureBoxHuwMB141Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMB141Star_PKR.Name = "pictureBoxHuwMB141Star_PKR";
             this.pictureBoxHuwMB141Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -258,7 +258,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonMB14Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMB14Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonMB14Star_PKR.ImageIndex = 0;
-            this.buttonMB14Star_PKR.Location = new System.Drawing.Point(558, 112);
+            this.buttonMB14Star_PKR.Location = new System.Drawing.Point(548, 112);
             this.buttonMB14Star_PKR.Name = "buttonMB14Star_PKR";
             this.buttonMB14Star_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonMB14Star_PKR.TabIndex = 34;
@@ -296,7 +296,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMB142_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMB142_PKR.Enabled = false;
             this.pictureBoxHuwMB142_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMB142_PKR.Image")));
-            this.pictureBoxHuwMB142_PKR.Location = new System.Drawing.Point(-51, 6);
+            this.pictureBoxHuwMB142_PKR.Location = new System.Drawing.Point(-61, 6);
             this.pictureBoxHuwMB142_PKR.Name = "pictureBoxHuwMB142_PKR";
             this.pictureBoxHuwMB142_PKR.Size = new System.Drawing.Size(188, 164);
             this.pictureBoxHuwMB142_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -319,7 +319,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMB142Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMB142Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMB142Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMB142Star_PKR.Image")));
-            this.pictureBoxHuwMB142Star_PKR.Location = new System.Drawing.Point(639, 17);
+            this.pictureBoxHuwMB142Star_PKR.Location = new System.Drawing.Point(629, 17);
             this.pictureBoxHuwMB142Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMB142Star_PKR.Name = "pictureBoxHuwMB142Star_PKR";
             this.pictureBoxHuwMB142Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -339,7 +339,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxHuwMB14_PKR.Multiline = true;
             this.textBoxHuwMB14_PKR.Name = "textBoxHuwMB14_PKR";
             this.textBoxHuwMB14_PKR.ReadOnly = true;
-            this.textBoxHuwMB14_PKR.Size = new System.Drawing.Size(475, 157);
+            this.textBoxHuwMB14_PKR.Size = new System.Drawing.Size(454, 157);
             this.textBoxHuwMB14_PKR.TabIndex = 1;
             this.textBoxHuwMB14_PKR.Text = resources.GetString("textBoxHuwMB14_PKR.Text");
             // 
@@ -358,7 +358,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelHuwMBX_PKR.Controls.Add(this.textBoxHuwMBX_PKR);
             this.panelHuwMBX_PKR.Location = new System.Drawing.Point(12, 415);
             this.panelHuwMBX_PKR.Name = "panelHuwMBX_PKR";
-            this.panelHuwMBX_PKR.Size = new System.Drawing.Size(699, 170);
+            this.panelHuwMBX_PKR.Size = new System.Drawing.Size(678, 170);
             this.panelHuwMBX_PKR.TabIndex = 2;
             // 
             // pictureBoxHuwMBX1Star_PKR
@@ -366,7 +366,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMBX1Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMBX1Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMBX1Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMBX1Star_PKR.Image")));
-            this.pictureBoxHuwMBX1Star_PKR.Location = new System.Drawing.Point(639, 18);
+            this.pictureBoxHuwMBX1Star_PKR.Location = new System.Drawing.Point(629, 18);
             this.pictureBoxHuwMBX1Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMBX1Star_PKR.Name = "pictureBoxHuwMBX1Star_PKR";
             this.pictureBoxHuwMBX1Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -384,7 +384,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonHuwMBXStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHuwMBXStar_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonHuwMBXStar_PKR.ImageIndex = 0;
-            this.buttonHuwMBXStar_PKR.Location = new System.Drawing.Point(558, 114);
+            this.buttonHuwMBXStar_PKR.Location = new System.Drawing.Point(548, 114);
             this.buttonHuwMBXStar_PKR.Name = "buttonHuwMBXStar_PKR";
             this.buttonHuwMBXStar_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonHuwMBXStar_PKR.TabIndex = 35;
@@ -456,7 +456,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMBX2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMBX2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMBX2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMBX2Star_PKR.Image")));
-            this.pictureBoxHuwMBX2Star_PKR.Location = new System.Drawing.Point(639, 18);
+            this.pictureBoxHuwMBX2Star_PKR.Location = new System.Drawing.Point(629, 18);
             this.pictureBoxHuwMBX2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMBX2Star_PKR.Name = "pictureBoxHuwMBX2Star_PKR";
             this.pictureBoxHuwMBX2Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -476,7 +476,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxHuwMBX_PKR.Multiline = true;
             this.textBoxHuwMBX_PKR.Name = "textBoxHuwMBX_PKR";
             this.textBoxHuwMBX_PKR.ReadOnly = true;
-            this.textBoxHuwMBX_PKR.Size = new System.Drawing.Size(475, 157);
+            this.textBoxHuwMBX_PKR.Size = new System.Drawing.Size(454, 157);
             this.textBoxHuwMBX_PKR.TabIndex = 2;
             this.textBoxHuwMBX_PKR.Text = resources.GetString("textBoxHuwMBX_PKR.Text");
             // 
@@ -495,7 +495,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelHuwMBE_PKR.Controls.Add(this.textBoxHuwMBE_PKR);
             this.panelHuwMBE_PKR.Location = new System.Drawing.Point(12, 612);
             this.panelHuwMBE_PKR.Name = "panelHuwMBE_PKR";
-            this.panelHuwMBE_PKR.Size = new System.Drawing.Size(699, 170);
+            this.panelHuwMBE_PKR.Size = new System.Drawing.Size(678, 170);
             this.panelHuwMBE_PKR.TabIndex = 3;
             // 
             // pictureBoxHuwMBE1Star_PKR
@@ -503,7 +503,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMBE1Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMBE1Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMBE1Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMBE1Star_PKR.Image")));
-            this.pictureBoxHuwMBE1Star_PKR.Location = new System.Drawing.Point(639, 19);
+            this.pictureBoxHuwMBE1Star_PKR.Location = new System.Drawing.Point(629, 19);
             this.pictureBoxHuwMBE1Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMBE1Star_PKR.Name = "pictureBoxHuwMBE1Star_PKR";
             this.pictureBoxHuwMBE1Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -521,7 +521,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonHuwMBEStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHuwMBEStar_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonHuwMBEStar_PKR.ImageIndex = 0;
-            this.buttonHuwMBEStar_PKR.Location = new System.Drawing.Point(558, 112);
+            this.buttonHuwMBEStar_PKR.Location = new System.Drawing.Point(548, 112);
             this.buttonHuwMBEStar_PKR.Name = "buttonHuwMBEStar_PKR";
             this.buttonHuwMBEStar_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonHuwMBEStar_PKR.TabIndex = 36;
@@ -593,7 +593,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHuwMBE2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxHuwMBE2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxHuwMBE2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHuwMBE2Star_PKR.Image")));
-            this.pictureBoxHuwMBE2Star_PKR.Location = new System.Drawing.Point(639, 19);
+            this.pictureBoxHuwMBE2Star_PKR.Location = new System.Drawing.Point(629, 19);
             this.pictureBoxHuwMBE2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxHuwMBE2Star_PKR.Name = "pictureBoxHuwMBE2Star_PKR";
             this.pictureBoxHuwMBE2Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -613,7 +613,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxHuwMBE_PKR.Multiline = true;
             this.textBoxHuwMBE_PKR.Name = "textBoxHuwMBE_PKR";
             this.textBoxHuwMBE_PKR.ReadOnly = true;
-            this.textBoxHuwMBE_PKR.Size = new System.Drawing.Size(475, 157);
+            this.textBoxHuwMBE_PKR.Size = new System.Drawing.Size(454, 157);
             this.textBoxHuwMBE_PKR.TabIndex = 3;
             this.textBoxHuwMBE_PKR.Text = resources.GetString("textBoxHuwMBE_PKR.Text");
             // 
