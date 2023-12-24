@@ -135,7 +135,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMSIGF66_PKR.Controls.Add(this.textBoxMSIGF66_PKR);
             this.panelMSIGF66_PKR.Location = new System.Drawing.Point(12, 12);
             this.panelMSIGF66_PKR.Name = "panelMSIGF66_PKR";
-            this.panelMSIGF66_PKR.Size = new System.Drawing.Size(697, 170);
+            this.panelMSIGF66_PKR.Size = new System.Drawing.Size(676, 170);
             this.panelMSIGF66_PKR.TabIndex = 0;
             // 
             // pictureBoxMSIGF661Star_PKR
@@ -143,7 +143,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIGF661Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIGF661Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIGF661Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIGF661Star_PKR.Image")));
-            this.pictureBoxMSIGF661Star_PKR.Location = new System.Drawing.Point(632, 7);
+            this.pictureBoxMSIGF661Star_PKR.Location = new System.Drawing.Point(622, 7);
             this.pictureBoxMSIGF661Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIGF661Star_PKR.Name = "pictureBoxMSIGF661Star_PKR";
             this.pictureBoxMSIGF661Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -161,7 +161,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonMSIGF66Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMSIGF66Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonMSIGF66Star_PKR.ImageIndex = 0;
-            this.buttonMSIGF66Star_PKR.Location = new System.Drawing.Point(555, 115);
+            this.buttonMSIGF66Star_PKR.Location = new System.Drawing.Point(545, 115);
             this.buttonMSIGF66Star_PKR.Name = "buttonMSIGF66Star_PKR";
             this.buttonMSIGF66Star_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonMSIGF66Star_PKR.TabIndex = 34;
@@ -245,7 +245,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIGF662Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIGF662Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIGF662Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIGF662Star_PKR.Image")));
-            this.pictureBoxMSIGF662Star_PKR.Location = new System.Drawing.Point(632, 7);
+            this.pictureBoxMSIGF662Star_PKR.Location = new System.Drawing.Point(622, 7);
             this.pictureBoxMSIGF662Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIGF662Star_PKR.Name = "pictureBoxMSIGF662Star_PKR";
             this.pictureBoxMSIGF662Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -265,7 +265,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxMSIGF66_PKR.Multiline = true;
             this.textBoxMSIGF66_PKR.Name = "textBoxMSIGF66_PKR";
             this.textBoxMSIGF66_PKR.ReadOnly = true;
-            this.textBoxMSIGF66_PKR.Size = new System.Drawing.Size(481, 165);
+            this.textBoxMSIGF66_PKR.Size = new System.Drawing.Size(460, 165);
             this.textBoxMSIGF66_PKR.TabIndex = 0;
             this.textBoxMSIGF66_PKR.TabStop = false;
             this.textBoxMSIGF66_PKR.Text = resources.GetString("textBoxMSIGF66_PKR.Text");
@@ -287,7 +287,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMSIModern14_PKR.Controls.Add(this.textBoxMSIModern14_PKR);
             this.panelMSIModern14_PKR.Location = new System.Drawing.Point(12, 215);
             this.panelMSIModern14_PKR.Name = "panelMSIModern14_PKR";
-            this.panelMSIModern14_PKR.Size = new System.Drawing.Size(697, 170);
+            this.panelMSIModern14_PKR.Size = new System.Drawing.Size(676, 170);
             this.panelMSIModern14_PKR.TabIndex = 1;
             // 
             // buttonMSIModern14Star_PKR
@@ -300,7 +300,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonMSIModern14Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMSIModern14Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonMSIModern14Star_PKR.ImageIndex = 0;
-            this.buttonMSIModern14Star_PKR.Location = new System.Drawing.Point(555, 116);
+            this.buttonMSIModern14Star_PKR.Location = new System.Drawing.Point(545, 116);
             this.buttonMSIModern14Star_PKR.Name = "buttonMSIModern14Star_PKR";
             this.buttonMSIModern14Star_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonMSIModern14Star_PKR.TabIndex = 37;
@@ -313,7 +313,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIModern141Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIModern141Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIModern141Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIModern141Star_PKR.Image")));
-            this.pictureBoxMSIModern141Star_PKR.Location = new System.Drawing.Point(632, 8);
+            this.pictureBoxMSIModern141Star_PKR.Location = new System.Drawing.Point(622, 8);
             this.pictureBoxMSIModern141Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIModern141Star_PKR.Name = "pictureBoxMSIModern141Star_PKR";
             this.pictureBoxMSIModern141Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -397,7 +397,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIModern142Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIModern142Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIModern142Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIModern142Star_PKR.Image")));
-            this.pictureBoxMSIModern142Star_PKR.Location = new System.Drawing.Point(632, 8);
+            this.pictureBoxMSIModern142Star_PKR.Location = new System.Drawing.Point(622, 8);
             this.pictureBoxMSIModern142Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIModern142Star_PKR.Name = "pictureBoxMSIModern142Star_PKR";
             this.pictureBoxMSIModern142Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -417,7 +417,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxMSIModern14_PKR.Multiline = true;
             this.textBoxMSIModern14_PKR.Name = "textBoxMSIModern14_PKR";
             this.textBoxMSIModern14_PKR.ReadOnly = true;
-            this.textBoxMSIModern14_PKR.Size = new System.Drawing.Size(481, 165);
+            this.textBoxMSIModern14_PKR.Size = new System.Drawing.Size(460, 165);
             this.textBoxMSIModern14_PKR.TabIndex = 1;
             this.textBoxMSIModern14_PKR.Text = resources.GetString("textBoxMSIModern14_PKR.Text");
             // 
@@ -437,7 +437,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMSIGF76_PKR.Controls.Add(this.textBoxMSIGF76_PKR);
             this.panelMSIGF76_PKR.Location = new System.Drawing.Point(9, 416);
             this.panelMSIGF76_PKR.Name = "panelMSIGF76_PKR";
-            this.panelMSIGF76_PKR.Size = new System.Drawing.Size(697, 170);
+            this.panelMSIGF76_PKR.Size = new System.Drawing.Size(676, 170);
             this.panelMSIGF76_PKR.TabIndex = 2;
             // 
             // buttonMSIGF76Star_PKR
@@ -450,7 +450,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonMSIGF76Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMSIGF76Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonMSIGF76Star_PKR.ImageIndex = 0;
-            this.buttonMSIGF76Star_PKR.Location = new System.Drawing.Point(558, 116);
+            this.buttonMSIGF76Star_PKR.Location = new System.Drawing.Point(548, 116);
             this.buttonMSIGF76Star_PKR.Name = "buttonMSIGF76Star_PKR";
             this.buttonMSIGF76Star_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonMSIGF76Star_PKR.TabIndex = 38;
@@ -463,7 +463,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIGF761Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIGF761Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIGF761Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIGF761Star_PKR.Image")));
-            this.pictureBoxMSIGF761Star_PKR.Location = new System.Drawing.Point(635, 12);
+            this.pictureBoxMSIGF761Star_PKR.Location = new System.Drawing.Point(625, 12);
             this.pictureBoxMSIGF761Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIGF761Star_PKR.Name = "pictureBoxMSIGF761Star_PKR";
             this.pictureBoxMSIGF761Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -547,7 +547,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIGF762Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIGF762Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIGF762Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIGF762Star_PKR.Image")));
-            this.pictureBoxMSIGF762Star_PKR.Location = new System.Drawing.Point(635, 12);
+            this.pictureBoxMSIGF762Star_PKR.Location = new System.Drawing.Point(625, 12);
             this.pictureBoxMSIGF762Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIGF762Star_PKR.Name = "pictureBoxMSIGF762Star_PKR";
             this.pictureBoxMSIGF762Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -567,7 +567,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxMSIGF76_PKR.Multiline = true;
             this.textBoxMSIGF76_PKR.Name = "textBoxMSIGF76_PKR";
             this.textBoxMSIGF76_PKR.ReadOnly = true;
-            this.textBoxMSIGF76_PKR.Size = new System.Drawing.Size(481, 162);
+            this.textBoxMSIGF76_PKR.Size = new System.Drawing.Size(460, 162);
             this.textBoxMSIGF76_PKR.TabIndex = 2;
             this.textBoxMSIGF76_PKR.Text = resources.GetString("textBoxMSIGF76_PKR.Text");
             // 
@@ -585,7 +585,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMSIPre_PKR.Controls.Add(this.textBoxMSIPres14_PKR);
             this.panelMSIPre_PKR.Location = new System.Drawing.Point(9, 619);
             this.panelMSIPre_PKR.Name = "panelMSIPre_PKR";
-            this.panelMSIPre_PKR.Size = new System.Drawing.Size(697, 170);
+            this.panelMSIPre_PKR.Size = new System.Drawing.Size(676, 170);
             this.panelMSIPre_PKR.TabIndex = 3;
             // 
             // buttonMSIPreStar_PKR
@@ -598,7 +598,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonMSIPreStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMSIPreStar_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonMSIPreStar_PKR.ImageIndex = 0;
-            this.buttonMSIPreStar_PKR.Location = new System.Drawing.Point(558, 117);
+            this.buttonMSIPreStar_PKR.Location = new System.Drawing.Point(548, 117);
             this.buttonMSIPreStar_PKR.Name = "buttonMSIPreStar_PKR";
             this.buttonMSIPreStar_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonMSIPreStar_PKR.TabIndex = 39;
@@ -611,7 +611,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIPre1Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIPre1Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIPre1Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIPre1Star_PKR.Image")));
-            this.pictureBoxMSIPre1Star_PKR.Location = new System.Drawing.Point(635, 13);
+            this.pictureBoxMSIPre1Star_PKR.Location = new System.Drawing.Point(625, 13);
             this.pictureBoxMSIPre1Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIPre1Star_PKR.Name = "pictureBoxMSIPre1Star_PKR";
             this.pictureBoxMSIPre1Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -669,7 +669,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIPre2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIPre2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIPre2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIPre2Star_PKR.Image")));
-            this.pictureBoxMSIPre2Star_PKR.Location = new System.Drawing.Point(635, 13);
+            this.pictureBoxMSIPre2Star_PKR.Location = new System.Drawing.Point(625, 13);
             this.pictureBoxMSIPre2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIPre2Star_PKR.Name = "pictureBoxMSIPre2Star_PKR";
             this.pictureBoxMSIPre2Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -689,7 +689,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxMSIPres14_PKR.Multiline = true;
             this.textBoxMSIPres14_PKR.Name = "textBoxMSIPres14_PKR";
             this.textBoxMSIPres14_PKR.ReadOnly = true;
-            this.textBoxMSIPres14_PKR.Size = new System.Drawing.Size(481, 164);
+            this.textBoxMSIPres14_PKR.Size = new System.Drawing.Size(460, 164);
             this.textBoxMSIPres14_PKR.TabIndex = 3;
             this.textBoxMSIPres14_PKR.Text = resources.GetString("textBoxMSIPres14_PKR.Text");
             // 
@@ -709,7 +709,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMSIGF63_PKR.Controls.Add(this.textBoxMSIGF63_PKR);
             this.panelMSIGF63_PKR.Location = new System.Drawing.Point(9, 824);
             this.panelMSIGF63_PKR.Name = "panelMSIGF63_PKR";
-            this.panelMSIGF63_PKR.Size = new System.Drawing.Size(700, 170);
+            this.panelMSIGF63_PKR.Size = new System.Drawing.Size(679, 170);
             this.panelMSIGF63_PKR.TabIndex = 4;
             // 
             // buttonMSIGF63Star_PKR
@@ -722,7 +722,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonMSIGF63Star_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMSIGF63Star_PKR.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonMSIGF63Star_PKR.ImageIndex = 0;
-            this.buttonMSIGF63Star_PKR.Location = new System.Drawing.Point(556, 118);
+            this.buttonMSIGF63Star_PKR.Location = new System.Drawing.Point(545, 118);
             this.buttonMSIGF63Star_PKR.Name = "buttonMSIGF63Star_PKR";
             this.buttonMSIGF63Star_PKR.Size = new System.Drawing.Size(106, 38);
             this.buttonMSIGF63Star_PKR.TabIndex = 40;
@@ -735,7 +735,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIGF631Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIGF631Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIGF631Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIGF631Star_PKR.Image")));
-            this.pictureBoxMSIGF631Star_PKR.Location = new System.Drawing.Point(637, 12);
+            this.pictureBoxMSIGF631Star_PKR.Location = new System.Drawing.Point(626, 12);
             this.pictureBoxMSIGF631Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIGF631Star_PKR.Name = "pictureBoxMSIGF631Star_PKR";
             this.pictureBoxMSIGF631Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -819,7 +819,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxMSIGF632Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxMSIGF632Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
             this.pictureBoxMSIGF632Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSIGF632Star_PKR.Image")));
-            this.pictureBoxMSIGF632Star_PKR.Location = new System.Drawing.Point(637, 12);
+            this.pictureBoxMSIGF632Star_PKR.Location = new System.Drawing.Point(626, 12);
             this.pictureBoxMSIGF632Star_PKR.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMSIGF632Star_PKR.Name = "pictureBoxMSIGF632Star_PKR";
             this.pictureBoxMSIGF632Star_PKR.Size = new System.Drawing.Size(25, 37);
@@ -839,7 +839,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.textBoxMSIGF63_PKR.Multiline = true;
             this.textBoxMSIGF63_PKR.Name = "textBoxMSIGF63_PKR";
             this.textBoxMSIGF63_PKR.ReadOnly = true;
-            this.textBoxMSIGF63_PKR.Size = new System.Drawing.Size(484, 165);
+            this.textBoxMSIGF63_PKR.Size = new System.Drawing.Size(463, 165);
             this.textBoxMSIGF63_PKR.TabIndex = 4;
             this.textBoxMSIGF63_PKR.Text = resources.GetString("textBoxMSIGF63_PKR.Text");
             // 
