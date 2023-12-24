@@ -306,5 +306,74 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                 listBox.Items.Add(textAsusVivo16);
             }
         }
+
+        private void FormASUS_Load(object sender, EventArgs e)
+        {
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textAsusRog = ("ASUS ROG Strix G513IE_G513IE AMD Ryzen 7 4800H Цена: 115000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textAsusRog))
+            {
+                pictureBoxAsusRog1Star_PKR.Visible = false;
+                pictureBoxAsusRog2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxAsusRog1Star_PKR.Visible = true;
+                pictureBoxAsusRog2Star_PKR.Visible = false;
+            }
+
+            string textAsusZen = ("ASUS ZenBook 14X OLED Intel Core i7 13700H  Цена: 149000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textAsusZen))
+            {
+                pictureBoxAsusZen1Star_PKR.Visible = false;
+                pictureBoxAsusZen2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxAsusZen1Star_PKR.Visible = true;
+                pictureBoxAsusZen2Star_PKR.Visible = false;
+            }
+
+            string textAsusVivo17 = ("ASUS Vivobook X1704ZA-AU123 Intel Core i5-1235U Цена: 59000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textAsusVivo17))
+            {
+                pictureBoxAsusVivo171Star_PKR.Visible = false;
+                pictureBoxAsusVivo172Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxAsusVivo171Star_PKR.Visible = true;
+                pictureBoxAsusVivo172Star_PKR.Visible = false;
+            }
+
+            string textAsusVivo15 = ("ASUS Vivobook Go 15 AMD Ryzen 5 7520U  Цена: 48600");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textAsusVivo15))
+            {
+                pictureBoxAsusVivo151Star_PKR.Visible = false;
+                pictureBoxAsusVivo152Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxAsusVivo151Star_PKR.Visible = true;
+                pictureBoxAsusVivo152Star_PKR.Visible = false;
+            }
+
+            string textAsusVivo16 = ("ASUS VivoBook 16 X1605ZA-MB018W Intel Core i3-1215U Цена: 49600");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textAsusVivo16))
+            {
+                pictureBoxAsusVivo161Star_PKR.Visible = false;
+                pictureBoxAsusVivo162Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxAsusVivo161Star_PKR.Visible = true;
+                pictureBoxAsusVivo162Star_PKR.Visible = false;
+            }
+        }
     }
 }

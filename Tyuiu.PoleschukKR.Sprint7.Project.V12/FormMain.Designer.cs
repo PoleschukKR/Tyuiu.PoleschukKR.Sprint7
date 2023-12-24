@@ -29,6 +29,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -49,18 +50,27 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelLogo_PKR = new System.Windows.Forms.Panel();
             this.panelMainBase_PKR = new System.Windows.Forms.Panel();
             this.panelMainMenu_PKR = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelStar_PKR = new System.Windows.Forms.Panel();
+            this.buttonClearListStar_PKR = new System.Windows.Forms.Button();
+            this.textBoxNotes_PKR = new System.Windows.Forms.TextBox();
+            this.buttonReturnMenuFromStar_PKR = new System.Windows.Forms.Button();
+            this.buttonSaveFileStar_PKR = new System.Windows.Forms.Button();
+            this.buttonOpenFileStar_PKR = new System.Windows.Forms.Button();
             this.listBoxStar_PKR = new System.Windows.Forms.ListBox();
             this.buttonEVMBase_PKR = new System.Windows.Forms.Button();
             this.textBoxMenuGreeting_PKR = new System.Windows.Forms.TextBox();
             this.dataGridViewEVMBase_PKR = new System.Windows.Forms.DataGridView();
             this.buttonReturnMainMenu_PKR = new System.Windows.Forms.Button();
             this.panelTitle_PKR = new System.Windows.Forms.Panel();
+            this.openFileDialogStar_PKR = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialogStar_PKR = new System.Windows.Forms.SaveFileDialog();
+            this.toolTipButton_PKR = new System.Windows.Forms.ToolTip(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelMenu_PKR.SuspendLayout();
             this.panelSearchMenu_PKR.SuspendLayout();
             this.panelMainBase_PKR.SuspendLayout();
             this.panelMainMenu_PKR.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panelStar_PKR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEVMBase_PKR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,6 +108,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonProducts_PKR.Text = "Избранное";
             this.buttonProducts_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonProducts_PKR.UseVisualStyleBackColor = true;
+            this.buttonProducts_PKR.Click += new System.EventHandler(this.ButtonProducts_PKR_Click);
             // 
             // buttonCompanies_PKR
             // 
@@ -279,7 +290,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // panelMainMenu_PKR
             // 
             this.panelMainMenu_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panelMainMenu_PKR.Controls.Add(this.panel1);
+            this.panelMainMenu_PKR.Controls.Add(this.panelStar_PKR);
             this.panelMainMenu_PKR.Controls.Add(this.buttonEVMBase_PKR);
             this.panelMainMenu_PKR.Controls.Add(this.textBoxMenuGreeting_PKR);
             this.panelMainMenu_PKR.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -288,22 +299,119 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMainMenu_PKR.Size = new System.Drawing.Size(732, 553);
             this.panelMainMenu_PKR.TabIndex = 5;
             // 
-            // panel1
+            // panelStar_PKR
             // 
-            this.panel1.Controls.Add(this.listBoxStar_PKR);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(729, 484);
-            this.panel1.TabIndex = 1;
+            this.panelStar_PKR.Controls.Add(this.textBox1);
+            this.panelStar_PKR.Controls.Add(this.buttonClearListStar_PKR);
+            this.panelStar_PKR.Controls.Add(this.textBoxNotes_PKR);
+            this.panelStar_PKR.Controls.Add(this.buttonReturnMenuFromStar_PKR);
+            this.panelStar_PKR.Controls.Add(this.buttonSaveFileStar_PKR);
+            this.panelStar_PKR.Controls.Add(this.buttonOpenFileStar_PKR);
+            this.panelStar_PKR.Controls.Add(this.listBoxStar_PKR);
+            this.panelStar_PKR.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelStar_PKR.Location = new System.Drawing.Point(0, 0);
+            this.panelStar_PKR.Name = "panelStar_PKR";
+            this.panelStar_PKR.Size = new System.Drawing.Size(732, 550);
+            this.panelStar_PKR.TabIndex = 1;
+            this.panelStar_PKR.Visible = false;
+            // 
+            // buttonClearListStar_PKR
+            // 
+            this.buttonClearListStar_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonClearListStar_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.buttonClearListStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClearListStar_PKR.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonClearListStar_PKR.ForeColor = System.Drawing.SystemColors.Menu;
+            this.buttonClearListStar_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonClearListStar_PKR.Image")));
+            this.buttonClearListStar_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonClearListStar_PKR.Location = new System.Drawing.Point(538, 490);
+            this.buttonClearListStar_PKR.Name = "buttonClearListStar_PKR";
+            this.buttonClearListStar_PKR.Size = new System.Drawing.Size(182, 51);
+            this.buttonClearListStar_PKR.TabIndex = 5;
+            this.buttonClearListStar_PKR.Text = "Очистить";
+            this.buttonClearListStar_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTipButton_PKR.SetToolTip(this.buttonClearListStar_PKR, "Очистить избранное");
+            this.buttonClearListStar_PKR.UseVisualStyleBackColor = false;
+            this.buttonClearListStar_PKR.Click += new System.EventHandler(this.ButtonClearListStar_PKR_Click);
+            // 
+            // textBoxNotes_PKR
+            // 
+            this.textBoxNotes_PKR.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBoxNotes_PKR.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBoxNotes_PKR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxNotes_PKR.Location = new System.Drawing.Point(541, 26);
+            this.textBoxNotes_PKR.Multiline = true;
+            this.textBoxNotes_PKR.Name = "textBoxNotes_PKR";
+            this.textBoxNotes_PKR.Size = new System.Drawing.Size(191, 438);
+            this.textBoxNotes_PKR.TabIndex = 4;
+            // 
+            // buttonReturnMenuFromStar_PKR
+            // 
+            this.buttonReturnMenuFromStar_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonReturnMenuFromStar_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.buttonReturnMenuFromStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonReturnMenuFromStar_PKR.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonReturnMenuFromStar_PKR.ForeColor = System.Drawing.SystemColors.Menu;
+            this.buttonReturnMenuFromStar_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonReturnMenuFromStar_PKR.Image")));
+            this.buttonReturnMenuFromStar_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonReturnMenuFromStar_PKR.Location = new System.Drawing.Point(7, 490);
+            this.buttonReturnMenuFromStar_PKR.Name = "buttonReturnMenuFromStar_PKR";
+            this.buttonReturnMenuFromStar_PKR.Size = new System.Drawing.Size(178, 51);
+            this.buttonReturnMenuFromStar_PKR.TabIndex = 3;
+            this.buttonReturnMenuFromStar_PKR.Text = "Главное меню";
+            this.buttonReturnMenuFromStar_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTipButton_PKR.SetToolTip(this.buttonReturnMenuFromStar_PKR, "Вернуться в главное меню");
+            this.buttonReturnMenuFromStar_PKR.UseVisualStyleBackColor = false;
+            this.buttonReturnMenuFromStar_PKR.Click += new System.EventHandler(this.ButtonReturnMenuFromStar_PKR_Click);
+            // 
+            // buttonSaveFileStar_PKR
+            // 
+            this.buttonSaveFileStar_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonSaveFileStar_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.buttonSaveFileStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSaveFileStar_PKR.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSaveFileStar_PKR.ForeColor = System.Drawing.SystemColors.Menu;
+            this.buttonSaveFileStar_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonSaveFileStar_PKR.Image")));
+            this.buttonSaveFileStar_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSaveFileStar_PKR.Location = new System.Drawing.Point(191, 490);
+            this.buttonSaveFileStar_PKR.Name = "buttonSaveFileStar_PKR";
+            this.buttonSaveFileStar_PKR.Size = new System.Drawing.Size(176, 51);
+            this.buttonSaveFileStar_PKR.TabIndex = 2;
+            this.buttonSaveFileStar_PKR.Text = "Сохранить ";
+            this.buttonSaveFileStar_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTipButton_PKR.SetToolTip(this.buttonSaveFileStar_PKR, "Сохранить избранное в файл");
+            this.buttonSaveFileStar_PKR.UseVisualStyleBackColor = false;
+            this.buttonSaveFileStar_PKR.Click += new System.EventHandler(this.ButtonSaveFileStar_PKR_Click);
+            // 
+            // buttonOpenFileStar_PKR
+            // 
+            this.buttonOpenFileStar_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenFileStar_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.buttonOpenFileStar_PKR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOpenFileStar_PKR.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenFileStar_PKR.ForeColor = System.Drawing.SystemColors.Menu;
+            this.buttonOpenFileStar_PKR.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFileStar_PKR.Image")));
+            this.buttonOpenFileStar_PKR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonOpenFileStar_PKR.Location = new System.Drawing.Point(373, 491);
+            this.buttonOpenFileStar_PKR.Name = "buttonOpenFileStar_PKR";
+            this.buttonOpenFileStar_PKR.Size = new System.Drawing.Size(159, 50);
+            this.buttonOpenFileStar_PKR.TabIndex = 1;
+            this.buttonOpenFileStar_PKR.Text = "Открыть";
+            this.buttonOpenFileStar_PKR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTipButton_PKR.SetToolTip(this.buttonOpenFileStar_PKR, "Открыть файл с избранным");
+            this.buttonOpenFileStar_PKR.UseVisualStyleBackColor = false;
+            this.buttonOpenFileStar_PKR.Click += new System.EventHandler(this.ButtonOpenFileStar_PKR_Click);
             // 
             // listBoxStar_PKR
             // 
+            this.listBoxStar_PKR.Dock = System.Windows.Forms.DockStyle.Top;
+            this.listBoxStar_PKR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBoxStar_PKR.ForeColor = System.Drawing.SystemColors.InfoText;
             this.listBoxStar_PKR.FormattingEnabled = true;
-            this.listBoxStar_PKR.ItemHeight = 31;
-            this.listBoxStar_PKR.Location = new System.Drawing.Point(16, 32);
+            this.listBoxStar_PKR.ItemHeight = 28;
+            this.listBoxStar_PKR.Location = new System.Drawing.Point(0, 0);
             this.listBoxStar_PKR.Name = "listBoxStar_PKR";
-            this.listBoxStar_PKR.Size = new System.Drawing.Size(696, 376);
+            this.listBoxStar_PKR.Size = new System.Drawing.Size(732, 480);
             this.listBoxStar_PKR.TabIndex = 0;
             // 
             // buttonEVMBase_PKR
@@ -321,16 +429,17 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             // 
             // textBoxMenuGreeting_PKR
             // 
+            this.textBoxMenuGreeting_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxMenuGreeting_PKR.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.textBoxMenuGreeting_PKR.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxMenuGreeting_PKR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxMenuGreeting_PKR.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxMenuGreeting_PKR.ForeColor = System.Drawing.SystemColors.Menu;
             this.textBoxMenuGreeting_PKR.Location = new System.Drawing.Point(0, 0);
             this.textBoxMenuGreeting_PKR.Multiline = true;
             this.textBoxMenuGreeting_PKR.Name = "textBoxMenuGreeting_PKR";
             this.textBoxMenuGreeting_PKR.ReadOnly = true;
-            this.textBoxMenuGreeting_PKR.Size = new System.Drawing.Size(732, 553);
+            this.textBoxMenuGreeting_PKR.Size = new System.Drawing.Size(732, 497);
             this.textBoxMenuGreeting_PKR.TabIndex = 0;
             this.textBoxMenuGreeting_PKR.Text = resources.GetString("textBoxMenuGreeting_PKR.Text");
             // 
@@ -410,6 +519,31 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelTitle_PKR.Size = new System.Drawing.Size(732, 100);
             this.panelTitle_PKR.TabIndex = 1;
             // 
+            // openFileDialogStar_PKR
+            // 
+            this.openFileDialogStar_PKR.FileName = "openFileDialog1";
+            // 
+            // toolTipButton_PKR
+            // 
+            this.toolTipButton_PKR.BackColor = System.Drawing.SystemColors.GrayText;
+            this.toolTipButton_PKR.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.toolTipButton_PKR.Tag = "";
+            this.toolTipButton_PKR.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTipButton_PKR.ToolTipTitle = "Подсказка";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(541, 0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(191, 30);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.Text = "Поле для заметок:";
+            // 
             // FormMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -431,7 +565,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelMainBase_PKR.ResumeLayout(false);
             this.panelMainMenu_PKR.ResumeLayout(false);
             this.panelMainMenu_PKR.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.panelStar_PKR.ResumeLayout(false);
+            this.panelStar_PKR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEVMBase_PKR)).EndInit();
             this.ResumeLayout(false);
 
@@ -458,8 +593,17 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.Panel panelMainMenu_PKR;
         private System.Windows.Forms.TextBox textBoxMenuGreeting_PKR;
         private System.Windows.Forms.Button buttonReturnMainMenu_PKR;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelStar_PKR;
         public System.Windows.Forms.ListBox listBoxStar_PKR;
+        private System.Windows.Forms.OpenFileDialog openFileDialogStar_PKR;
+        private System.Windows.Forms.SaveFileDialog saveFileDialogStar_PKR;
+        private System.Windows.Forms.Button buttonSaveFileStar_PKR;
+        private System.Windows.Forms.Button buttonOpenFileStar_PKR;
+        private System.Windows.Forms.Button buttonReturnMenuFromStar_PKR;
+        private System.Windows.Forms.TextBox textBoxNotes_PKR;
+        private System.Windows.Forms.Button buttonClearListStar_PKR;
+        private System.Windows.Forms.ToolTip toolTipButton_PKR;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

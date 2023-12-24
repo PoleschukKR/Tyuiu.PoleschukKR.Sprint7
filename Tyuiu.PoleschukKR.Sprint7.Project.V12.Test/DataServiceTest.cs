@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using Tyuiu.PoleschukKR.Sprint7.Project.V12.Lib;
 
@@ -35,5 +36,16 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12.Test
             CollectionAssert.AreEqual(wait, res);
 
         }
+        [TestMethod]
+        public void ValidLoadFromDataFile()
+        {
+            string path = $@"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\База ЭВМ.csv";
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExists = fileInfo.Exists;
+            bool wait = true;
+            Assert.AreEqual(wait, fileExists);
+        }
+
+        
     }
 }

@@ -228,5 +228,61 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                 listBox.Items.Add(textMBE);
             }
         }
+
+        private void FormHuawei_Load(object sender, EventArgs e)
+        {
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textMBD15 = ("Huawei MateBook D15 Intel Core i5-1155G7 Цена: 63000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMBD15))
+            {
+                pictureBoxHuwMBD151Star_PKR.Visible = false;
+                pictureBoxHuwMBD152Star_PKR.Visible = true; 
+            }
+            else
+            {
+                pictureBoxHuwMBD151Star_PKR.Visible = true;
+                pictureBoxHuwMBD152Star_PKR.Visible = false;
+            }
+
+            string textMB14 = ("Huawei MateBook 14 Intel Core i5-1135G7 Цена: 63000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMB14))
+            {
+                pictureBoxHuwMB141Star_PKR.Visible = false;
+                pictureBoxHuwMB142Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMB141Star_PKR.Visible = true;
+                pictureBoxHuwMB142Star_PKR.Visible = false;
+            }
+
+            string textMBX = ("Huawei MateBook X Pro Intel Core i7-1165G7 Цена: 100000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMBX))
+            {
+                pictureBoxHuwMBX1Star_PKR.Visible = false;
+                pictureBoxHuwMBX2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMBX1Star_PKR.Visible = true;
+                pictureBoxHuwMBX2Star_PKR.Visible = false;
+            }
+
+            string textMBE = ("Huawei MateBook E Go Snapdragon® 8cx Gen 3 Цена: 70000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMBE))
+            {
+                pictureBoxHuwMBE1Star_PKR.Visible = false;
+                pictureBoxHuwMBE2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHuwMBE1Star_PKR.Visible = true;
+                pictureBoxHuwMBE2Star_PKR.Visible = false;
+            }
+        }
     }
 }

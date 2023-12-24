@@ -51,15 +51,15 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHPSpec2Star_PKR = new System.Windows.Forms.PictureBox();
             this.textBoxHPSpec_PKR = new System.Windows.Forms.TextBox();
             this.panelHPVic_PKR = new System.Windows.Forms.Panel();
-            this.pictureBoxHPVic2Star_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxHPVic1Star_PKR = new System.Windows.Forms.PictureBox();
             this.buttonHPVicStar_PKR = new System.Windows.Forms.Button();
             this.linkLabelHPVic_PKR = new System.Windows.Forms.LinkLabel();
             this.pictureBoxHPVic1_PKR = new System.Windows.Forms.PictureBox();
-            this.textBoxHPVic_PKR = new System.Windows.Forms.TextBox();
             this.pictureBoxHPVic2_PKR = new System.Windows.Forms.PictureBox();
             this.pictureBoxHPVic3_PKR = new System.Windows.Forms.PictureBox();
             this.buttonHPVicPictureChange_PKR = new System.Windows.Forms.Button();
+            this.pictureBoxHPVic2Star_PKR = new System.Windows.Forms.PictureBox();
+            this.textBoxHPVic_PKR = new System.Windows.Forms.TextBox();
             this.panelHPEnvy_PKR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPEnvy1Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPEnvy1_PKR)).BeginInit();
@@ -73,11 +73,11 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPSpec3_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPSpec2Star_PKR)).BeginInit();
             this.panelHPVic_PKR.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic2Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic1Star_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic1_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic2_PKR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic3_PKR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic2Star_PKR)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHPEnvy_PKR
@@ -375,20 +375,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.panelHPVic_PKR.Size = new System.Drawing.Size(700, 170);
             this.panelHPVic_PKR.TabIndex = 2;
             // 
-            // pictureBoxHPVic2Star_PKR
-            // 
-            this.pictureBoxHPVic2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBoxHPVic2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.pictureBoxHPVic2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHPVic2Star_PKR.Image")));
-            this.pictureBoxHPVic2Star_PKR.Location = new System.Drawing.Point(641, 22);
-            this.pictureBoxHPVic2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBoxHPVic2Star_PKR.Name = "pictureBoxHPVic2Star_PKR";
-            this.pictureBoxHPVic2Star_PKR.Size = new System.Drawing.Size(25, 37);
-            this.pictureBoxHPVic2Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxHPVic2Star_PKR.TabIndex = 37;
-            this.pictureBoxHPVic2Star_PKR.TabStop = false;
-            this.pictureBoxHPVic2Star_PKR.Visible = false;
-            // 
             // pictureBoxHPVic1Star_PKR
             // 
             this.pictureBoxHPVic1Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -445,21 +431,6 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxHPVic1_PKR.TabIndex = 3;
             this.pictureBoxHPVic1_PKR.TabStop = false;
             // 
-            // textBoxHPVic_PKR
-            // 
-            this.textBoxHPVic_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxHPVic_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
-            this.textBoxHPVic_PKR.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxHPVic_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxHPVic_PKR.Location = new System.Drawing.Point(216, 5);
-            this.textBoxHPVic_PKR.Multiline = true;
-            this.textBoxHPVic_PKR.Name = "textBoxHPVic_PKR";
-            this.textBoxHPVic_PKR.ReadOnly = true;
-            this.textBoxHPVic_PKR.Size = new System.Drawing.Size(476, 165);
-            this.textBoxHPVic_PKR.TabIndex = 2;
-            this.textBoxHPVic_PKR.Text = resources.GetString("textBoxHPVic_PKR.Text");
-            // 
             // pictureBoxHPVic2_PKR
             // 
             this.pictureBoxHPVic2_PKR.Enabled = false;
@@ -494,6 +465,35 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonHPVicPictureChange_PKR.UseVisualStyleBackColor = true;
             this.buttonHPVicPictureChange_PKR.Click += new System.EventHandler(this.ButtonHPVicPictureChange_PKR_Click);
             // 
+            // pictureBoxHPVic2Star_PKR
+            // 
+            this.pictureBoxHPVic2Star_PKR.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBoxHPVic2Star_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.pictureBoxHPVic2Star_PKR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHPVic2Star_PKR.Image")));
+            this.pictureBoxHPVic2Star_PKR.Location = new System.Drawing.Point(641, 22);
+            this.pictureBoxHPVic2Star_PKR.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBoxHPVic2Star_PKR.Name = "pictureBoxHPVic2Star_PKR";
+            this.pictureBoxHPVic2Star_PKR.Size = new System.Drawing.Size(25, 37);
+            this.pictureBoxHPVic2Star_PKR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxHPVic2Star_PKR.TabIndex = 37;
+            this.pictureBoxHPVic2Star_PKR.TabStop = false;
+            this.pictureBoxHPVic2Star_PKR.Visible = false;
+            // 
+            // textBoxHPVic_PKR
+            // 
+            this.textBoxHPVic_PKR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxHPVic_PKR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.textBoxHPVic_PKR.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxHPVic_PKR.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxHPVic_PKR.Location = new System.Drawing.Point(216, 5);
+            this.textBoxHPVic_PKR.Multiline = true;
+            this.textBoxHPVic_PKR.Name = "textBoxHPVic_PKR";
+            this.textBoxHPVic_PKR.ReadOnly = true;
+            this.textBoxHPVic_PKR.Size = new System.Drawing.Size(476, 165);
+            this.textBoxHPVic_PKR.TabIndex = 2;
+            this.textBoxHPVic_PKR.Text = resources.GetString("textBoxHPVic_PKR.Text");
+            // 
             // FormHP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -511,6 +511,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.Padding = new System.Windows.Forms.Padding(5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HP";
+            this.Load += new System.EventHandler(this.FormHP_Load);
             this.panelHPEnvy_PKR.ResumeLayout(false);
             this.panelHPEnvy_PKR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPEnvy1Star_PKR)).EndInit();
@@ -527,11 +528,11 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPSpec2Star_PKR)).EndInit();
             this.panelHPVic_PKR.ResumeLayout(false);
             this.panelHPVic_PKR.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic2Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic1Star_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic1_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic2_PKR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic3_PKR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHPVic2Star_PKR)).EndInit();
             this.ResumeLayout(false);
 
         }

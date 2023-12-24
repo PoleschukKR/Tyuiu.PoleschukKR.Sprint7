@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         public FormMain()
         {
             InitializeComponent();
+            openFileDialogStar_PKR.Filter = "Значения, разделенные запятыми(*.csv)|*.csv|Всефайлы(*.*)|*.*";
+            saveFileDialogStar_PKR.Filter = "Значения, разделенные запятыми(*.csv)|*.csv|Всефайлы(*.*)|*.*";
         }
         DataService ds = new DataService();
         string pathPcBase = @"C:\Users\ILYA\source\repos\Tyuiu.PoleschukKR.Sprint7\Tyuiu.PoleschukKR.Sprint7.Project.V12\bin\Debug\Files\База ЭВМ.csv";
@@ -146,6 +149,79 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private void ButtonReturnMainMenu_PKR_Click(object sender, EventArgs e)
         {
             panelMainMenu_PKR.Visible = true;
+        }
+
+        private void ButtonOpenFileStar_PKR_Click(object sender, EventArgs e)
+        {
+            openFileDialogStar_PKR.FileName = "Сохраненная корзина";
+
+            try
+            {
+
+                // Позволяет пользователю выбрать файл для открытия
+                if (openFileDialogStar_PKR.ShowDialog() == DialogResult.OK)
+                {
+                    // Читаем строки из выбранного файла и добавляем их в ListBox
+                    string[] lines = File.ReadAllLines(openFileDialogStar_PKR.FileName);
+                    foreach (string line in lines)
+                    {
+                        listBoxStar_PKR.Items.Add(line);
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Файл не выбран!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ButtonSaveFileStar_PKR_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                saveFileDialogStar_PKR.FileName = "Сохраненная корзина.csv";
+                saveFileDialogStar_PKR.InitialDirectory = Directory.GetCurrentDirectory();
+                saveFileDialogStar_PKR.ShowDialog();
+                
+
+                if (saveFileDialogStar_PKR.FileName != "")
+                {
+                    using (StreamWriter sw = new StreamWriter(saveFileDialogStar_PKR.FileName))
+                    {
+                        foreach (var item in listBoxStar_PKR.Items)
+                        {
+                            sw.WriteLine(item.ToString());
+                        }
+                    }
+                }
+                
+            }
+            catch
+            {
+
+                MessageBox.Show("Файл не сохранен!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void ButtonProducts_PKR_Click(object sender, EventArgs e)
+        {
+            panelStar_PKR.Visible = true;
+            buttonEVMBase_PKR.Visible = false;
+
+        }
+
+        private void ButtonReturnMenuFromStar_PKR_Click(object sender, EventArgs e)
+        {
+            panelStar_PKR.Visible = false;
+            buttonEVMBase_PKR.Visible = true;
+
+
+        }
+
+        private void ButtonClearListStar_PKR_Click(object sender, EventArgs e)
+        {
+            listBoxStar_PKR.Items.Clear();
         }
     }
 }

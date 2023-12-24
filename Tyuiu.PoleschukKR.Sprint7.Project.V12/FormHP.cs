@@ -103,6 +103,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
 
         private void ButtonHPEnvyStar_PKR_Click(object sender, EventArgs e)
         {
+
             if (pictureBoxHPEnvy1Star_PKR.Visible == true && pictureBoxHPEnvy2Star_PKR.Visible == false)
             {
                 pictureBoxHPEnvy1Star_PKR.Visible = false;
@@ -121,6 +122,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             if (listBox.Items.Contains(textHPEnvy))
             {
                 listBox.Items.Remove(textHPEnvy);
+
             }
             else
             {
@@ -180,6 +182,51 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             {
                 listBox.Items.Add(textHPVic);
             }
+        }
+
+        private void FormHP_Load(object sender, EventArgs e)
+        {
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textHPVic = ("HP Victus 16-e0146ur AMD Ryzen 5 5600H Цена: 114500");
+            if ((listBox.Items.Contains(textHPVic)))
+            {
+                pictureBoxHPVic1Star_PKR.Visible = false;
+                pictureBoxHPVic2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHPVic1Star_PKR.Visible = true;
+                pictureBoxHPVic2Star_PKR.Visible = false;
+            }
+
+            string textHPSpec = ("HP Spectre x360 16-f1032nn Intel Core i7-12700H Цена: 236000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textHPSpec))
+            {
+                pictureBoxHPSpec1Star_PKR.Visible = false;
+                pictureBoxHPSpec2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxHPSpec1Star_PKR.Visible = true;
+                pictureBoxHPSpec2Star_PKR.Visible = false;
+            }
+
+            string textHPEnvy = ("HP Envy x360 15-fe0053dx Intel Core i7-1355U Цена: 149000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textHPEnvy))
+            {
+                pictureBoxHPEnvy1Star_PKR.Visible = false;
+                pictureBoxHPEnvy2Star_PKR.Visible = true;
+
+            }
+            else
+            {
+                pictureBoxHPEnvy1Star_PKR.Visible = true;
+                pictureBoxHPEnvy2Star_PKR.Visible = false;
+            }
+
+
         }
     }
 }

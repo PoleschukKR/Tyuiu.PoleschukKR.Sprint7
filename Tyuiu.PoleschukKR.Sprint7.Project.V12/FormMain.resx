@@ -257,6 +257,60 @@
         P4v8FxdRTV6/AAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="buttonClearListStar_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAIgSURBVGhD7Zm9SgNBFIUjpLEKFhICiYoptcsrGEEE8SkU
+        0qvYpVN8BiEPYmFnayeIiD9vYCNaxXNm7k4mu5P930TIfHDYzL1zzx6SzQix5vHMgfF43IL2YtSSrf8D
+        BNqAXqE4PqBtGakO3KQHnSToFHqD0sB93O/ysdWTCNnB8BBaBEOJkB0Oa4+5s3yhg2f6gU4Wl1D4Ocwj
+        +tjwPqznf6YDYDKio8WWtApBH21nGEmrODTTngYf2mI+ofG6DfEPS6AbaSm4DvXb0lpo6Ngbc63LhtSz
+        haCZ9jT40BY+tA8tLR86As20p8GHtvChfWhp+dARaKY9DUsdug5tW1qXVnFgVknoSsGNfGhpGVBbk5dO
+        kvpOMFRZaKz70Bd0LKUpUD+Q/qGU0oGBuNBN6M7SmbQUXIf6TWkFgb8h8gsdSUvBtdQJ9/WllQw2J37E
+        WYEHT45n5TbBBOdV1jbcX1cGSWBj6aEJfLrQp3KcwKBXcrXhvq6MJoPNlYQm8NqEkn4qzhaYYOBWjU64
+        hi5yqiG2BtRc73hA9sAEQ+dqvBycnxLqA92OMJAt2cBgA5r1TmQlEho1Hms/qhuFz7bzOEwEg7vQI10K
+        MhUaa9cpEYb9qeMwNRhcgXYg13+v0mpV7GYF5ie6L1eb/MHLAgF4Tj8xjYX50vEqaxvuT3dOVwUC8BfX
+        F6YBJnAA1vZx+A6VdtQWAkE60D3kPNZYl35HV2q1P2AzVBKAIplIAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="toolTipButton_PKR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>450, 17</value>
+  </metadata>
+  <data name="buttonReturnMenuFromStar_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAMtJREFUSEtjGAWjYHACe3t7CSC+4uDgYA8Voj5wdXUVg1oyG8hlgohSGQwfS4CA
+        EWQJEP8B4j1Ay3YTwKsdHR2TQPog2kkAQAumgiwCGlIHNCQNHwaqywWquw6kW6HaSQIgX80AGnANSEtA
+        xXACOzs7XaDad0Am6b4CApBlU4D4houLixRUDCsAxik30KL/IBoqRDKA+8zGxkYUKoYBqGERCIAsq3Vy
+        cjKC8jEAtSwiCEYtIhuEhoayAePxBYiGCtEUkJWHRsGIAgwMAGZ3XA4Fzy7eAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonSaveFileStar_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAWNJREFUaEPtmb1KA1EQhbczKGJKSxtjSt/BZ7AUAgFfwTyChb29jWBjp0VqwXfI
+        M1ilDVnPuTOK5l7dH+dmF5kPTnF35p792C6kcBynp5RlOUIua+RUryTBfHdjn9nXcQDnsy+zKbKjo2bg
+        4gSpw0yvJMH8UNa+caTjAM738viTZ2Sg4/rgUpfSpLk4LnQtTZqJY7kP0uRC16rBcl+kJ7pWDZflTiUu
+        naAT6QFyvpE9HQdw3rr0rV5pDTpepSpJFukVcodct8wT8htZpHPj0tvCTPoNeUQeDMIe9v2EifQaOdY1
+        E9B3EprTmEgvdcUU9kp9hEubwl6pj3BpU9gr9REubQp7pT7CpU1hr9RHuLQp7JX6CJc2hb1SH9FKeoFc
+        ITfhlF+a7+H7+F7SSnqu57Ecw2/Cg7BkBPqG2kvG+mwuR5svTV6QGcLnfw172PeByZfumv8vXfefgNwZ
+        qZLjOP2iKN4B5WOVDEfyFdMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonOpenFileStar_PKR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAfxJREFUaEPtmT8ohHEYx+/KlSS3MXCDycJgUE7HoFOWW5TBcMMtMmCyKKyWK6NC
+        SkzEaJL1/LkMZ7uSQUlRyp8ocb6/3/N9vW+5cC7vPeo+9e31fB/e9+NO914nUKXKNxQKhWZkBBn9QVJI
+        K3+0MkBgAHlASuER6eEp/AcXP7UapXOOhHkaf8GFX63C71jjafyFFy8H80xl/ygHyCLSRF0BxX8gh4So
+        /G+kDd1U/lLavKKY37DY01aJ9FK5qHQGcb9BI+L5wSFSxz6KmBtJsRtMJWJufs3FpGPsNmRUxz0S90pf
+        IEGky056yXmld/goT8uoljuv9CylN2VUS8YrnaB0Xka1LHqlI0g9Us57ET8Yc6Rv+CjHZFRN1JHeo/S4
+        jGoxfwX1jnSa0ssyqiVvPB3pJL8+llEtW17pDqQGebKTXmYc6WckhLSbVjn2ZdlIZ3lM2lo3EUd6hce0
+        rfVyiwQd6Qke98xGMftW2IDBvuHH8dqu9LJghQ0YwkiLrXWTorKAIiG9ajqpK6CYk14tL0gtdQUU23al
+        lxxVXVCeyU4t61QVUDQgb3allynqCij6pFdNnLoCiknpVdNIXQHFqvRquaSqC8oT2alll6ouKEv914Xf
+        zFPVBeWR7NQySFUXlOZjsCu71scSNT+Dpfm8ox8ZVpIhpI16VSpEIPAONPC+CIJ/yLsAAAAASUVORK5C
+        YII=
+</value>
+  </data>
   <data name="textBoxMenuGreeting_PKR.Text" xml:space="preserve">
     <value>      
   	            Приветствуем Вас в ItCompare!
@@ -277,6 +331,12 @@
         cjKC8jEAtSwiCEYtIhuEhoayAePxBYiGCtEUkJWHRsGIAgwMAGZ3XA4Fzy7eAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="openFileDialogStar_PKR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="saveFileDialogStar_PKR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIAAoIAQAFgAAACgAAAAAAQAAAAIAAAEAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA

@@ -16,6 +16,10 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12.Lib
             string[] linesMSI = File.ReadAllLines(path);
             return linesMSI;
         }
+
+
+
+
         public string[,] GetData(string path)
         {
             string fileData = File.ReadAllText(path, Encoding.GetEncoding(1251));
@@ -36,6 +40,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12.Lib
                 }
             }
             return arrayValues;
-
         }
-}}
+
+      
+    }
+}

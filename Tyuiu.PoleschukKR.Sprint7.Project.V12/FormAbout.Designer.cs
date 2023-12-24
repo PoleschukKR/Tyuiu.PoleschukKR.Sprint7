@@ -33,6 +33,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.pictureBoxAvatar_PKR = new System.Windows.Forms.PictureBox();
             this.labelInfo_PKR = new System.Windows.Forms.Label();
             this.buttonOkFormAbout_PKR = new System.Windows.Forms.Button();
+            this.linkLabelTelega_PKR = new System.Windows.Forms.LinkLabel();
+            this.linkLabelVK_PKR = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_PKR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +71,33 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.buttonOkFormAbout_PKR.TabIndex = 2;
             this.buttonOkFormAbout_PKR.Text = "OK";
             this.buttonOkFormAbout_PKR.UseVisualStyleBackColor = false;
-            this.buttonOkFormAbout_PKR.Click += new System.EventHandler(this.buttonOkFormAbout_PKR_Click);
+            this.buttonOkFormAbout_PKR.Click += new System.EventHandler(this.ButtonOkFormAbout_PKR_Click);
+            // 
+            // linkLabelTelega_PKR
+            // 
+            this.linkLabelTelega_PKR.AutoSize = true;
+            this.linkLabelTelega_PKR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabelTelega_PKR.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.linkLabelTelega_PKR.Location = new System.Drawing.Point(207, 189);
+            this.linkLabelTelega_PKR.Name = "linkLabelTelega_PKR";
+            this.linkLabelTelega_PKR.Size = new System.Drawing.Size(96, 23);
+            this.linkLabelTelega_PKR.TabIndex = 3;
+            this.linkLabelTelega_PKR.TabStop = true;
+            this.linkLabelTelega_PKR.Text = "Телеграмм";
+            this.linkLabelTelega_PKR.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelTelega_PKR_LinkClicked);
+            // 
+            // linkLabelVK_PKR
+            // 
+            this.linkLabelVK_PKR.AutoSize = true;
+            this.linkLabelVK_PKR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabelVK_PKR.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(157)))), ((int)(((byte)(174)))));
+            this.linkLabelVK_PKR.Location = new System.Drawing.Point(326, 189);
+            this.linkLabelVK_PKR.Name = "linkLabelVK_PKR";
+            this.linkLabelVK_PKR.Size = new System.Drawing.Size(31, 23);
+            this.linkLabelVK_PKR.TabIndex = 4;
+            this.linkLabelVK_PKR.TabStop = true;
+            this.linkLabelVK_PKR.Text = "VK";
+            this.linkLabelVK_PKR.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelVK_PKR_LinkClicked);
             // 
             // FormAbout
             // 
@@ -77,6 +105,8 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(96)))), ((int)(((byte)(110)))));
             this.ClientSize = new System.Drawing.Size(682, 221);
+            this.Controls.Add(this.linkLabelVK_PKR);
+            this.Controls.Add(this.linkLabelTelega_PKR);
             this.Controls.Add(this.buttonOkFormAbout_PKR);
             this.Controls.Add(this.labelInfo_PKR);
             this.Controls.Add(this.pictureBoxAvatar_PKR);
@@ -98,5 +128,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
         private System.Windows.Forms.PictureBox pictureBoxAvatar_PKR;
         private System.Windows.Forms.Label labelInfo_PKR;
         private System.Windows.Forms.Button buttonOkFormAbout_PKR;
+        private System.Windows.Forms.LinkLabel linkLabelTelega_PKR;
+        private System.Windows.Forms.LinkLabel linkLabelVK_PKR;
     }
 }

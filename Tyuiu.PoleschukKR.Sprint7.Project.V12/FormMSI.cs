@@ -118,7 +118,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
            
         }
 
-        private void buttonMSIGF63PictureChange_PKR_Click(object sender, EventArgs e)
+        private void ButtonMSIGF63PictureChange_PKR_Click(object sender, EventArgs e)
         {
             if (pictureBoxMSIGF631_PKR.Visible == true && pictureBoxMSIGF632_PKR.Visible == false && pictureBoxMSIGF633_PKR.Visible == false && pictureBoxMSIGF634_PKR.Visible == false)
             {
@@ -274,7 +274,7 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
             }
         }
 
-        private void buttonMSIGF63Star_PKR_Click(object sender, EventArgs e)
+        private void ButtonMSIGF63Star_PKR_Click(object sender, EventArgs e)
         {
             if (pictureBoxMSIGF631Star_PKR.Visible == true && pictureBoxMSIGF632Star_PKR.Visible == false)
             {
@@ -300,6 +300,76 @@ namespace Tyuiu.PoleschukKR.Sprint7.Project.V12
                 listBox.Items.Add(textMSIGF63);
             }
             
+        }
+
+        private void FormMSI_Load(object sender, EventArgs e)
+        {
+            ListBox listBox = mainForm.listBoxStar_PKR;
+            string textMSIGF66 = ("MSI GF66 Katana 11UE-408XRU Intel Core i5-11400H Цена: 107000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMSIGF66))
+            {
+                pictureBoxMSIGF661Star_PKR.Visible = false;
+                pictureBoxMSIGF662Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxMSIGF661Star_PKR.Visible = true;
+                pictureBoxMSIGF662Star_PKR.Visible = false;
+            }
+
+            string textMSIModern14 = ("MSI Modern 14 C12M-233XRU Intel Core i3-1215U Цена: 38000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMSIModern14))
+            {
+                pictureBoxMSIModern141Star_PKR.Visible = false;
+                pictureBoxMSIModern142Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxMSIModern141Star_PKR.Visible = true;
+                pictureBoxMSIModern142Star_PKR.Visible = false;
+            }
+
+            string textMSIGF76 = ("MSI GF76 Katana Intel Core i5-11400H Цена: 75000");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMSIGF76))
+            {
+                pictureBoxMSIGF761Star_PKR.Visible = false;
+                pictureBoxMSIGF762Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxMSIGF761Star_PKR.Visible = true;
+                pictureBoxMSIGF762Star_PKR.Visible = false;
+            }
+
+            string textMSIPre = ("MSI Prestige 14 A12SC-246RU Intel Core i5-1240P Цена: 97400");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMSIPre))
+            {
+                pictureBoxMSIPre1Star_PKR.Visible = false;
+                pictureBoxMSIPre2Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxMSIPre1Star_PKR.Visible = true;
+                pictureBoxMSIPre2Star_PKR.Visible = false;
+            }
+
+            string textMSIGF63 = ("MSI GF63 Thin 11SC-294XKZ ntel Core i5-11400H Цена: 99800");
+            // Получаем выбранный текст из listBox
+            if (listBox.Items.Contains(textMSIGF63))
+            {
+                pictureBoxMSIGF631Star_PKR.Visible = false;
+                pictureBoxMSIGF632Star_PKR.Visible = true;
+            }
+            else
+            {
+                pictureBoxMSIGF631Star_PKR.Visible = true;
+                pictureBoxMSIGF632Star_PKR.Visible = false;
+            }
+
         }
     }
 }
